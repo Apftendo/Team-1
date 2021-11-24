@@ -11,11 +11,6 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-
-ycyxcxyc
-yxcyxcyc
-dfsfdsf
-
 # Header 1
 ## Header 2
 ### Header 3
@@ -40,3 +35,64 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+# Java Tutorial - Team 1
+## Allgemeiner Teil
+### EVA-Prinzip
+- (E)ingabe
+- (V)erarbeitung
+- (A)usgabe
+   - Das EVA-Prinzip bezeichnet die Art, wie heutige Computer arbeiten. Im ersten Schritt wird eine Eingabe getätigt. Danach wird die getätigte Eingabe verarbeitet und zuletzt wird ein Signal ausgegeben. 
+   - Beispiel:  
+     Ich gebe auf meiner Tastatur ein „a“ ein und ein „a“ erscheint auf dem Bildschirm.
+### Algorithmus
+- Ein Algorithmus ist eine Vorschrift zur Lösung einer Klasse von Problemen. Er besteht aus einer endlichen Folge von Schritten, mit der aus bekannten Eingangsdaten neue Ausgangsdaten eindeutig berechnet werden können.  
+  - Beispiel eines Algorithmus, mit welchem ein Muffin gebacken werden soll:
+![Beispiel-Algorithmus](https://sebastiandoern.de/wp-content/uploads/2017/11/AlgorithmusMuffin.jpg)
+   - Quelle: https://sebastiandoern.de/wp-content/uploads/2017/11/AlgorithmusMuffin.jpg 
+### Compiler und Interpreter
+#### Bedeutung
+- Compiler und Interpreter sind grundsätzlich dazu da, um den Quelltext einer Programmiersprache (z.B. Java) in Maschinenbefehle umzusetzen. 
+#### Compiler
+#### Wie wird aus Quellcode Maschinencode (auf Java bezogen)
+- Das ist die Antwort       
+## Einführung in die Programmierung (Kontrollstrukturen)
+### Variablen
+- Variablen
+### Wertezuweisung
+- Wertezuweisung
+#### Inkrementoperator
+- Inkrementoperator
+### Datentypen
+- Datentypen
+#### Typecasting
+- Typecasting
+### Bedingungen (if und switch)
+- Bedingungen
+#### verschachtelte Bedingungen
+- verschachtelte Bedingungen
+### Schleifen
+- Schleifen
+#### for
+- for
+#### while
+- while
+#### do-while
+- do-while
+## Einführung in die objektorientierte Programmierung
+### Klasse
+- Klasse
+#### Bedeutung und Implementation
+- Bedeutung und Implementation
+### Objekte
+- Objekte
+#### Begriff der Initialisierung und Abgrenzung zur Klasse
+- Begriff der Initialisierung und Abgrenzung zur Klasse
+### Klassendiagramme
+- Klassendiagramme
+### Objektdiagramme
+- Objektdiagramme
+### Konstruktoren
+- Konstruktoren
+### Objektmethoden
+- Objektmethoden
