@@ -54,6 +54,9 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 #### Bedeutung
 - Compiler und Interpreter sind grundsätzlich dazu da, um den Quelltext einer Programmiersprache (z.B. Java) in Maschinenbefehle umzusetzen. 
 #### Compiler
+- Die Aufgabe eines Compilers ist es, den Quellcode eines Software-Projekts vor dessen Laufzeit zu übersetzen (Quellcode -> Maschinencode). Erst nach dem Übersetzen wird das jeweilige Projekt von dem Prozessor ausgeführt, dem dadurch von Beginn an sämtliche Anweisungen in Maschinencode zur Verfügung stehen. Vor der endgültigen Übersetzung in Maschinensprache wandeln die meisten Compiler Quellcode nämlich häufig zunächst in einen Zwischencode (auch „Objektcode“) um, der oft für verschiedene Plattformen geeignet ist und zudem von einem Interpreter verwendet werden kann. Zu den “Compiler-Sprachen”, also Sprachen, die auf Compiler zurückgreifen gehören z.B. C, C++, Pascal... 
+#### Interpreter
+- Die Aufgabe eines Interpreters ist es, den Quellcode eines Software-Projekts während dessen Laufzeit zu übersetzen (Quellcode -> Maschinencode) und als Schnittstelle zwischen Prozessor und Projekt zu fungieren. Dabei geht der Interpreter Codezeile für Codezeile vor -> die einzelnen Anweisungen werden in der Reihenfolge gelesen, analysiert und für den Prozessor aufbereitet. Sobald der Quellcode in Maschinenbefehle umgewandelt wurde, werden diese an den Prozessor weitergeleitet. Der Umwandlungsprozess ist erst abgeschlossen, wenn alle Code-Zeilen interpretiert wurden und der Umwandlungsprozess wird nur abgebrochen, falls ein Fehler auftreten sollte. Zu den ,,Interpreter-Sprachen”, also Sprachen, die auf Interpreter zurückgreifen gehören z.B. Python, BASIC, Perl... 
 #### Wie wird aus Quellcode Maschinencode (auf Java bezogen)
 - Das ist die Antwort       
 ## Einführung in die Programmierung (Kontrollstrukturen)
