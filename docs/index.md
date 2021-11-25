@@ -58,7 +58,13 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 #### Interpreter
 - Die Aufgabe eines Interpreters ist es, den Quellcode eines Software-Projekts während dessen Laufzeit zu übersetzen (Quellcode -> Maschinencode) und als Schnittstelle zwischen Prozessor und Projekt zu fungieren. Dabei geht der Interpreter Codezeile für Codezeile vor -> die einzelnen Anweisungen werden in der Reihenfolge gelesen, analysiert und für den Prozessor aufbereitet. Sobald der Quellcode in Maschinenbefehle umgewandelt wurde, werden diese an den Prozessor weitergeleitet. Der Umwandlungsprozess ist erst abgeschlossen, wenn alle Code-Zeilen interpretiert wurden und der Umwandlungsprozess wird nur abgebrochen, falls ein Fehler auftreten sollte. Zu den ,,Interpreter-Sprachen”, also Sprachen, die auf Interpreter zurückgreifen gehören z.B. Python, BASIC, Perl... 
 #### Wie wird aus Quellcode Maschinencode (auf Java bezogen)
-- Das ist die Antwort       
+  ![Darstellung-Quellcode->Maschinencode](https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-662-61309-2_1/MediaObjects/160339_2_De_1_Figb_HTML.png)  
+  Quelle:  https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-662-61309-2_1/MediaObjects/160339_2_De_1_Figb_HTML.png
+  - Java-Quellcode: Für Menschen lesbarer Text, der von einem Computer in ein lauffähiges Computerprogramm über-setzt werden kann.
+  - Java-Compiler: Übersetzt den Java-Quellcode in einen plattformunabhängigen Byte-code.
+  - Java-Bytecode: Plattformunabhängiger Programm-code, der in dieser Form an die Anwender ausgeliefert wird.
+  - Java-Interpreter: Übersetzt den Bytecode während der Laufzeit des Programms in die Maschinensprache des jeweiligen Computers.
+  - Maschinencode: Eine Folge von Nullen und Einsen, die sowohl Befehle als auch Daten repräsentieren und direkt vom Prozessor gelesen und verarbeitet werden können.
 ## Einführung in die Programmierung (Kontrollstrukturen)
 ### Variablen
 - Variablen
