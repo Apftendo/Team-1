@@ -66,11 +66,88 @@ public class App {
         scanner.nextLine();
         System.out.println("Du bedankst dich bei der Frau und denkst über deine nächsten");
         System.out.println("schritte vor dem Aufbruch nach.");  
-        
+        Scanner lücke5 = new Scanner(System.in);
+        scanner.nextLine();
+        System.out.println("Du ruhst dich vor dem Aufbruch aus und schläfst bis zum Morgengrauen (1)");
+        Scanner lücke6 = new Scanner(System.in);
+        scanner.nextLine();
+        System.out.println("Du entscheidest dich sofort aufzubrechen (2)");
+        Scanner lücke7 = new Scanner(System.in);
+        scanner.nextLine();
+        System.out.println("Du ruhst dich nicht aus und gehst Proviant kaufen (3)");
+        Scanner lücke8 = new Scanner(System.in);
+        scanner.nextLine();
+        System.out.println("Wofür entscheidest du dich?");
+
+        String entscheidung2 = scanner.nextLine();
+
+        if(entscheidung2.equals("1")){
+            System.out.println("In der Entfernung kannst du wage die Umrisse der Ruine");
+            System.out.println("ausmachen und die verlassene Siedlung vor Ihr. Die ganze Umgebung im Tal ist in");
+            System.out.println("einen leichten Schleier aus Nebel gehüllt, er ist nicht sonderlich dicht und du");
+            System.out.println("kannst von deiner erhobenen Position zumindest die Umrisse von allem erkennen. Das");
+            System.out.println("Gebiet vor dir ist ein Sumpfartiges Nass Land welches sich über das halbe Tal");
+            System.out.println("erstreckt, Glücklicherweise sind noch Überreste von Wegweisern übrig die von");
+            System.out.println("den vorherigen Bewohnern aufgestellt wurden um zu vermeiden das Reisende die");
+            System.out.println("diese Ansiedelung besuchten vom Weg abkamen und ertranken.");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("Wegweiser, den du entdeckt hast, sieht aus als wäre er");
+            System.out.println("von jemandem bewegt worden um die Richtung besser zu erkennen in die man gehen muss");
+            
+            
+            
+            System.out.println("Der Nebel ist dichter als erwartet, willst du dem Wegweiser trotzdem noch Folgen?");
+        }
+        else if(entscheidung2.equals("2")){
+            System.out.println("Du erreichst das Tal.");                                                                                                                                 
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("In der Entfernung kannst du wage die Umrisse der Ruine");
+            System.out.println("ausmachen und die verlassene Siedlung vor Ihr. Die ganze Umgebung im Tal ist in");
+            System.out.println("einen leichten Schleier aus Nebel gehüllt, er ist nicht sonderlich dicht und du");
+            System.out.println("kannst von deiner erhobenen Position zumindest die Umrisse von allem erkennen.");
+            System.out.println("Das Gebiet vor dir ist ein Sumpfartiges Nass Land welches sich über das halbe Tal");
+            System.out.println("erstreckt, Glücklicherweise sind noch Überreste von Wegweisern übrig die von");
+            System.out.println("den vorherigen Bewohnern aufgestellt wurden um zu vermeiden das Reisende die");
+            System.out.println("diese Ansiedelung besuchten vom Weg abkamen und ertranken.");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("Du kannst jedoch die angegebene Richtung durch den Dreck auf dem Schild nicht richtig");
+            System.out.println("erkennen und musst den Dreck erst entfernen, um herauszufinden wo es lang geht");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("Der Nebel ist dichter als erwartet, willst du dem Wegweiser trotzdem noch Folgen?"); 
+        }
+        else if(entscheidung2.equals("3")){
+            System.out.println("In der Entfernung kannst du wage die Umrisse der Ruine");
+            System.out.println("ausmachen und die verlassene Siedlung vor Ihr. Die ganze Umgebung im Tal ist in");
+            System.out.println("einen leichten Schleier aus Nebel gehüllt, er ist nicht sonderlich dicht und du");
+            System.out.println("kannst von deiner erhobenen Position zumindest die Umrisse von allem erkennen.");
+            System.out.println("Das Gebiet vor dir ist ein Sumpfartiges Nass Land welches sich über das halbe Tal");
+            erstreckt, Glücklicherweise sind noch Überreste von Wegweisern übrig die von
+            den vorherigen Bewohnern aufgestellt wurden um zu vermeiden das Reisende die
+            diese Ansiedelung besuchten vom Weg abkamen und ertranken.
+            
+            
+            Der Wegweiser, den du entdeckt hast, sieht aus als wäre er
+            von jemandem bewegt worden um die Richtung besser zu erkennen in die man gehen
+            muss
+            
+            
+            Der Nebel
+            ist dichter als erwartet, willst du dem Wegweiser trotzdem noch Folgen?");
+        }
+
+
         
         
                                
-        
 
 
 
