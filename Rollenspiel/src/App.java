@@ -27,12 +27,12 @@ public class App {
             return;
         }
         
-        Scanner scanner1 = new Scanner(System.in);
+        //Scanner scanner1 = new Scanner(System.in);
         System.out.println("Wie heißt du?");
-        String name = scanner1.nextLine();
+        String name = scanner.nextLine();
         System.out.println("");
         System.out.println("Noch während die Feder auf dem Papier kratzt,\nfängt die Frau an der Auftragsausgabe schon\nwieder an zu Sprechen \"Also "+name+", ungewöhnlicher Name, aber das soll\nuns ja nicht aufhalten.");
-        Scanner lücke1 = new Scanner(System.in);
+       // Scanner lücke1 = new Scanner(System.in);
         scanner.nextLine();
         System.out.println("");
         System.out.println("Die gefragten Ruinen befinden sich von hier aus ungefähr 6 Meilen westlich von\nhier. Sie ist trotz der geringen Entfernung erst Anfang des Jahres entdeckt\nworden, da sie sich in einem Tal befindet, das vorher unerreichbar war und\ndurch einen Erdrutsch, das durch das letzte Erdbeben verursacht wurde, zugänglich\n");
@@ -47,7 +47,7 @@ public class App {
         System.out.println("Sie überreicht dir einen Stapel verschiedener Papiere");
         System.out.println("");
         System.out.println("");
-        Scanner lücke2 = new Scanner(System.in);
+        //Scanner lücke2 = new Scanner(System.in);
         scanner.nextLine();
         System.out.println("\"Das sind die gerade genannten Infos plus eine Karte um");
         System.out.println("dorthin zu finden, eine für die überirdische Umgebung haben wir nicht.");
@@ -55,27 +55,144 @@ public class App {
         System.out.println("dort hinzugehen, und eine Karte zu zeichnen.");
         System.out.println("");
         System.out.println("");
-        Scanner lücke3 = new Scanner(System.in);
+        //Scanner lücke3 = new Scanner(System.in);
         scanner.nextLine();
         System.out.println("Ach, und falls du zufällig zeichnen kannst oder irgendwie");
         System.out.println("doch jemanden findest der bereit wäre eine Karte zu zeichnen würden wir dafür");
         System.out.println("auch extra zahlen.\"");
         System.out.println("");
         System.out.println("");
-        Scanner lücke4 = new Scanner(System.in);
+        //Scanner lücke4 = new Scanner(System.in);
         scanner.nextLine();
         System.out.println("Du bedankst dich bei der Frau und denkst über deine nächsten");
         System.out.println("schritte vor dem Aufbruch nach.");  
+        //Scanner lücke5 = new Scanner(System.in);
+        scanner.nextLine();
+        System.out.println("Du ruhst dich vor dem Aufbruch aus und schläfst bis zum Morgengrauen (1)");
+        //Scanner lücke6 = new Scanner(System.in);
+        scanner.nextLine();
+        System.out.println("Du entscheidest dich sofort aufzubrechen (2)");
+        //Scanner lücke7 = new Scanner(System.in);
+        scanner.nextLine();
+        System.out.println("Du ruhst dich nicht aus und gehst Proviant kaufen (3)");
+        //Scanner lücke8 = new Scanner(System.in);
+        scanner.nextLine();
+        System.out.println("Wofür entscheidest du dich?");
+
+        String entscheidung2 = scanner.nextLine();
+        boolean blau = false;
+        boolean gelb = false;
+        boolean lila = false;
+        if(entscheidung2.equals("1")){
+            System.out.println("In der Entfernung kannst du wage die Umrisse der Ruine");
+            System.out.println("ausmachen und die verlassene Siedlung vor Ihr. Die ganze Umgebung im Tal ist in");
+            System.out.println("einen leichten Schleier aus Nebel gehüllt, er ist nicht sonderlich dicht und du");
+            System.out.println("kannst von deiner erhobenen Position zumindest die Umrisse von allem erkennen. Das");
+            System.out.println("Gebiet vor dir ist ein Sumpfartiges Nass Land welches sich über das halbe Tal");
+            System.out.println("erstreckt, Glücklicherweise sind noch Überreste von Wegweisern übrig die von");
+            System.out.println("den vorherigen Bewohnern aufgestellt wurden um zu vermeiden das Reisende die");
+            System.out.println("diese Ansiedelung besuchten vom Weg abkamen und ertranken.");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("Wegweiser, den du entdeckt hast, sieht aus als wäre er");
+            System.out.println("von jemandem bewegt worden um die Richtung besser zu erkennen in die man gehen muss");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("Der Nebel ist dichter als erwartet, willst du dem Wegweiser trotzdem noch Folgen?");
+             blau = true;
+        }
+        else if(entscheidung2.equals("2")){
+            System.out.println("Du erreichst das Tal.");                                                                                                                                 
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("In der Entfernung kannst du wage die Umrisse der Ruine");
+            System.out.println("ausmachen und die verlassene Siedlung vor Ihr. Die ganze Umgebung im Tal ist in");
+            System.out.println("einen leichten Schleier aus Nebel gehüllt, er ist nicht sonderlich dicht und du");
+            System.out.println("kannst von deiner erhobenen Position zumindest die Umrisse von allem erkennen.");
+            System.out.println("Das Gebiet vor dir ist ein Sumpfartiges Nass Land welches sich über das halbe Tal");
+            System.out.println("erstreckt, Glücklicherweise sind noch Überreste von Wegweisern übrig die von");
+            System.out.println("den vorherigen Bewohnern aufgestellt wurden um zu vermeiden das Reisende die");
+            System.out.println("diese Ansiedelung besuchten vom Weg abkamen und ertranken.");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("Du kannst jedoch die angegebene Richtung durch den Dreck auf dem Schild nicht richtig");
+            System.out.println("erkennen und musst den Dreck erst entfernen, um herauszufinden wo es lang geht");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("Der Nebel ist dichter als erwartet, willst du dem Wegweiser trotzdem noch Folgen?");
+             gelb = true;
+        }
+        else if(entscheidung2.equals("3")){
+            System.out.println("In der Entfernung kannst du wage die Umrisse der Ruine");
+            System.out.println("ausmachen und die verlassene Siedlung vor Ihr. Die ganze Umgebung im Tal ist in");
+            System.out.println("einen leichten Schleier aus Nebel gehüllt, er ist nicht sonderlich dicht und du");
+            System.out.println("kannst von deiner erhobenen Position zumindest die Umrisse von allem erkennen.");
+            System.out.println("Das Gebiet vor dir ist ein Sumpfartiges Nass Land welches sich über das halbe Tal");
+            System.out.println("erstreckt, Glücklicherweise sind noch Überreste von Wegweisern übrig die von");
+            System.out.println("den vorherigen Bewohnern aufgestellt wurden um zu vermeiden das Reisende die");
+            System.out.println("diese Ansiedelung besuchten vom Weg abkamen und ertranken.");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("Der Wegweiser, den du entdeckt hast, sieht aus als wäre er");
+            System.out.println("von jemandem bewegt worden um die Richtung besser zu erkennen in die man gehen muss");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("Der Nebel ist dichter als erwartet, willst du dem Wegweiser trotzdem noch Folgen?");
+             lila = true;
+        }
+        else {
+            System.out.println("Bitte entscheide dich für 1,2 oder 3.");
+            return;
+        }
+
         
+        String entscheidung3 = scanner.nextLine();
+        boolean lichter = false;
+
+        if (entscheidung3.equals("Ja")) {
+            System.out.println("Ja:");
+            System.out.println("Du folgst dem Wegweiser und gehst in das Moorige Gebiet, nach einer weile kannst du");
+            System.out.println("den nächsten Wegweiser ausmachen und gehst auf ihn zu. Das Schild des letzten");
+            System.out.println("ist im Nebel verschwunden, eine Umkehr wäre jetzt gefährlicher als weiterzugehen.");
+        }
+        else if (entscheidung3.equals("Nein")) {
+            System.out.println("Nein:");
+            System.out.println("");
+            System.out.println("Du drehst dichum und willst wieder hinauf zum Eingang gehen, jedoch hat sich der Nebel so");
+            System.out.println("verdichtet das du nicht mehr ausmachen kannst auf welchem weg du gekommen bist.");
+            System.out.println("Also gehst du in die Richtung aus der du denkst aus der du gekommen bist gekommen bist.\nNach einer Weile ziellosen Herumlaufens, sind in der Entfernung lichter auszumachen.");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("Hältst du auf die Lichter zu?");
+            lichter = true;
+        }
+
+        if (lichter == true) {
+            
+
+        }
+
+
+
+
         
         
                                
-        
 
 
 
         //schließen des Scanners
         scanner.close();
-        scanner1.close();
+        
     }
 }
