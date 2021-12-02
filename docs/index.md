@@ -6,6 +6,10 @@
     - [x] Bedeutung 
 
 - [ ] Einführung in die Programmierung (Kontrollstrukturen)
+  - [ ] Kontrollstrukturen
+    - [x] Quellcode
+    - [x] Struktogramm
+    - [ ] Programmablaufplan  
   - [ ] Variablen
   - [ ] Wertezuweisung
     - [ ] Inkrementoperator
@@ -73,9 +77,17 @@ Hier zu sehen ist ein **Beispielquellcode** aus **Java**.
 
 *Der **Quellcode** ist der Code, den der Programmierer eintippt und auch sehen kann. Damit jedoch die Maschine damit interagieren kann, muss er zunächst in einen **Maschinencode** (mithilfe von **Compiler** und **Interpreter**) umgewandelt werden.*
 #### Struktogramm
-- Struktogramm
+  ![Beispiel-Struktogramm](https://upload.wikimedia.org/wikipedia/commons/5/5f/MehrfAusw.png)
+
+[Bildquelle](https://upload.wikimedia.org/wikipedia/commons/5/5f/MehrfAusw.png)
+
+Hier zu sehen ist ein **Beispiel-Struktogramm** für eine **verschachtelte Bedingung**.
+
+Ein anderer Name für ein **Struktogramm** ist das **Nassi-Shneiderman-Diagramm**. Ein **Struktogramm** dient zur vereinfachten und verständlichen *Visualisierung* des jeweiligen **Algorithmus**. Die Vorgehensweise bei solch einem **Struktogramm** ist die **Top-down-Programmierung** => **Gesamtkonzept**, welches durch eine *Verfeinerung der Strukturen* des **Gesamtkonzeptes** aufgelöst wird. Jede **Anweisung** wird in einen **rechteckigen Strukturblock** geschrieben. Diese **Strukturblöcke** werden nacheinander von *oben nach unten* durchlaufen. Die Zusammensetzung der **Strukturblöcke** ist schlussendlich das **Struktrogramm**, welches im Ganzen *reckteckig* ist, also genau so breit wie sein breitester **Strukturblock**.
 #### Programmablaufplan
-- Programmablaufplan
+![Beispiel-Programmablaufplan](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Flowchart_de.svg/330px-Flowchart_de.svg.png)
+
+Hier zu sehen ist ein **Beispiel-Programmablaufplan**. Diese Abbildung zeigt eine **Zählschleife**. Die **Zählvariable i** wird *vor Beginn der Schleife* auf ihren **Startwert i=1** gesetzt. Danach wird die erste Anweisung der **Schleife**, das **Ausgeben der Variable i**, ausgeführt. Die nachfolgende zweite Anweisung ist eine Auswahl, die prüft, ob **i** den **Wert 39** besitzt. *Wenn dies der Fall ist*, wird **i** auf den **Wert 61** gesetzt und die **Schleife** beginnt mit dem *nächsten Durchlauf*. Falls **i** nicht **39** ist, wird **i** in der nachfolgenden Anweisung um **eins** erhöht und anschließend geprüft, ob die **Schleifenfortsetzungsbedingung i≤100** gültig ist. Falls *ja*, erfolgt ein *nochmaliger Schleifendurchlauf*. Ausgegeben würden **alle natürlichen Zahlen von 1 bis 39 sowie 61 bis 100** (jeweils einschließlich). 
 ### *Variablen*
 - Variablen
 ### *Wertezuweisung*
