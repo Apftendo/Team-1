@@ -130,18 +130,18 @@ public class App {
             System.out.println("einen leichten Schleier aus Nebel gehüllt, er ist nicht sonderlich dicht und du");
             System.out.println("kannst von deiner erhobenen Position zumindest die Umrisse von allem erkennen.");
             System.out.println("Das Gebiet vor dir ist ein Sumpfartiges Nass Land welches sich über das halbe Tal");
-            erstreckt, Glücklicherweise sind noch Überreste von Wegweisern übrig die von
-            den vorherigen Bewohnern aufgestellt wurden um zu vermeiden das Reisende die
-            diese Ansiedelung besuchten vom Weg abkamen und ertranken.
+            System.out.println("erstreckt, Glücklicherweise sind noch Überreste von Wegweisern übrig die von");
+            System.out.println("den vorherigen Bewohnern aufgestellt wurden um zu vermeiden das Reisende die");
+            System.out.println("diese Ansiedelung besuchten vom Weg abkamen und ertranken.");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            
+            System.out.println("Der Wegweiser, den du entdeckt hast, sieht aus als wäre er");
+            System.out.println("von jemandem bewegt worden um die Richtung besser zu erkennen in die man gehen muss");
             
             
-            Der Wegweiser, den du entdeckt hast, sieht aus als wäre er
-            von jemandem bewegt worden um die Richtung besser zu erkennen in die man gehen
-            muss
-            
-            
-            Der Nebel
-            ist dichter als erwartet, willst du dem Wegweiser trotzdem noch Folgen?");
+            System.out.println("Der Nebel ist dichter als erwartet, willst du dem Wegweiser trotzdem noch Folgen?");
         }
 
 
