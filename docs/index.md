@@ -6,10 +6,10 @@
     - [x] Bedeutung 
 
 - [ ] Einführung in die Programmierung (Kontrollstrukturen)
-  - [ ] Kontrollstrukturen
+  - [x] Kontrollstrukturen
     - [x] Quellcode
     - [x] Struktogramm
-    - [ ] Programmablaufplan  
+    - [x] Programmablaufplan  
   - [ ] Variablen
   - [ ] Wertezuweisung
     - [ ] Inkrementoperator
@@ -77,7 +77,7 @@ Hier zu sehen ist ein **Beispielquellcode** aus **Java**.
 
 *Der **Quellcode** ist der Code, den der Programmierer eintippt und auch sehen kann. Damit jedoch die Maschine damit interagieren kann, muss er zunächst in einen **Maschinencode** (mithilfe von **Compiler** und **Interpreter**) umgewandelt werden.*
 #### Struktogramm
-  ![Beispiel-Struktogramm](https://upload.wikimedia.org/wikipedia/commons/5/5f/MehrfAusw.png)
+![Beispiel-Struktogramm](https://upload.wikimedia.org/wikipedia/commons/5/5f/MehrfAusw.png)
 
 [Bildquelle](https://upload.wikimedia.org/wikipedia/commons/5/5f/MehrfAusw.png)
 
@@ -87,9 +87,11 @@ Ein anderer Name für ein **Struktogramm** ist das **Nassi-Shneiderman-Diagramm*
 #### Programmablaufplan
 ![Beispiel-Programmablaufplan](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Flowchart_de.svg/330px-Flowchart_de.svg.png)
 
+[Bildquelle](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Flowchart_de.svg/330px-Flowchart_de.svg.png)
+
 Hier zu sehen ist ein **Beispiel-Programmablaufplan**. Diese Abbildung zeigt eine **Zählschleife**. Die **Zählvariable i** wird *vor Beginn der Schleife* auf ihren **Startwert i=1** gesetzt. Danach wird die erste Anweisung der **Schleife**, das **Ausgeben der Variable i**, ausgeführt. Die nachfolgende zweite Anweisung ist eine Auswahl, die prüft, ob **i** den **Wert 39** besitzt. *Wenn dies der Fall ist*, wird **i** auf den **Wert 61** gesetzt und die **Schleife** beginnt mit dem *nächsten Durchlauf*. Falls **i** nicht **39** ist, wird **i** in der nachfolgenden Anweisung um **eins** erhöht und anschließend geprüft, ob die **Schleifenfortsetzungsbedingung i≤100** gültig ist. Falls *ja*, erfolgt ein *nochmaliger Schleifendurchlauf*. Ausgegeben würden **alle natürlichen Zahlen von 1 bis 39 sowie 61 bis 100** (jeweils einschließlich). 
 ### *Variablen*
-- Variablen
+- Jedes *Computerprogramm* verarbeitet **Daten**, welch unterschiedlichen **Typs** sein können und als solche wiederum verschiedene **Werte** besitzen. Die **Daten** stellen das **'Material'** dar, das ein *Programm* verarbeitet. Im Rahmen dieser Verarbeitung müssen die Werte natürlich *(zwischen-)gespeichert* werden, um bei Bedarf auf sie zugreifen zu können. **Variablen** sind dabei eine Art **'Lesezeichen'**, das auf den *Speicherort* verweist und angibt, wie dieser angesprochen werden kann. Darüber hinaus enthält sie *Informationen* über den gespeicherten **Datentyp**. 
 ### *Wertezuweisung*
 - Wertezuweisung
 #### Inkrementoperator
