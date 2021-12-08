@@ -214,8 +214,67 @@ public class App {
             System.out.println("Kindheit von deinen Eltern und Großeltern warnen dich den Irrlichtern nicht zu");
             System.out.println("folgen. Du wanderst noch eine weile durch den Nebel und erreichst fast wie durch");
             System.out.println("ein Wunder den zweiten Wegweiser sodass du dem vorgegebenen Weg weiter folgen kannst.");
+            
         }
 
+        scanner.nextLine();
+        System.out.println("Du folgst also weiter den Wegweisern durch das Moor.");
+        System.out.println("");
+        System.out.println("");
+        System.out.println("In welcher Richtung der Ausgang liegt weißt du schon längst nicht mehr.");
+        System.out.println("Nach einiger Zeit erreichst du den Rand des Dorfes und hältst");
+        System.out.println("weiter auf die Festung zu, als du sie jedoch erreichst stellst du fest das es");
+        System.out.println("sich nicht um eine Festung handelt sondern um eine sehr gut Befestigte Mine,");
+        System.out.println("welche wohl mal das Haupteinkommensmittel des Dorfes war.");
+        System.out.println("Du betrittst die mine und Beginnst deinen abstieg.");
+
+        if (blau == true) {
+            System.out.println("Das erste was dir schon nach wenigen metern auffällt ist das der Gang ausgeleuchtet ist.\n An den Wänden befinden sich fakeln. Der bisher geradlinige weg spaltet sich in zwei gänge, aus dem rechten kommt ein leichtes blaues Leuchten, \naus dem linken hört man das leichte plätschern von Wasser(Q)");
+            System.out.println("Gehst du links oder rechts?");
+        }
+
+        else if (gelb == true) {
+            System.out.println("Der bisher geradlinige weg spaltet sich in zwei gänge,\naus dem rechten kommt ein leichtes blaues Leuchten, aus dem linken hört man das leichte plätschern von Wasser.\nGehst du links oder rechts?(Q)");
+        }
+        else if (lila == true) {
+            System.out.println("Das erste was dir schon nach wenigen metern auffällt ist das der Gang ausgeleuchtet ist, an den wänden befinden sich fakeln.\n Der bisher geradlinige weg spaltet sich in zwei gänge, aus dem rechten kommt ein leichtes blaues Leuchten, aus dem linken hört man das leichte plätschern von Wasser.\nGehst du links oder rechts?(Q)");
+        }
+        else {
+            return;
+        }
+        String entscheidung5 = scanner.nextLine();
+
+        if (entscheidung5.equals("Links")) {
+            System.out.println("Links:");
+            System.out.println("Du gehst den Linken Gang entlang entlang und erreichst eine Kammer mit einem Teich in der Mitte, als du dich dem Teich näherst kanst du einen Schlüssel am Grund erkennen.\nDa der Teich nicht sonderlich tief ist könntest du ihn mit der Hand herrausnehmen.");  
+            System.out.println("Willst du hineingreifen und den Schlüssel (Schlüssel) herausholen oder dich weiter umsehen (Umsehen)?(Q)");
+        }
+        else if (entscheidung5.equals("Rechts")) {
+            System.out.println("Rechts:");
+            System.out.println("Du gehst den rechten Gang entlang und entdeckst eine Kammer mit biolumineszierenden riesigen Pilzen.\nDu findest eine Wasserquelle und siehst ein parr Kleintiere die sich gerade an den Pilzen ernähren, sie scheinen also essbar zu sein.");
+            System.out.println("Es sieht aus wie der perfeckte Ort um ein Lager aufzuschlagen, möchtest du dies tun?(Q) (Ja) oder (Nein)");
+        }
+        else {
+            System.out.println("Sag bitte Links oder Rechts");
+            return;
+        }
+        
+        String entscheidung6 = scanner.nextLine();
+        
+        if (entscheidung5.equals("Links") && (entscheidung6.equals("Schlüssel"))) {
+            System.out.println("Du springst in das hüfhohe wasser hinein, wie du jedoch schnell merkst ist die flüssigkeit im Teich kein Wasser.\n Es ist eine hochgradige Lauge die von einem schleim ausgeschieden wird\n der dich jetzt and den Füßen fesselt sodass es kein entkommen mehr vor einem bad in der Lauge gibt");  
+        }
+        else if (entscheidung5.equals("Links") && (entscheidung6.equals("Umsehen"))) {
+            System.out.println("");
+            boolean notiz = true;
+        }
+        else if (entscheidung5.equals("Rechts") && (entscheidung6.equals("Ja"))) {
+
+        }
+
+
+
+        
         // schließen des Scanners
         scanner.close();
 
