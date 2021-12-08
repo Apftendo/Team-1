@@ -91,15 +91,27 @@ Ein anderer Name für ein **Struktogramm** ist das **Nassi-Shneiderman-Diagramm*
 
 Hier zu sehen ist ein **Beispiel-Programmablaufplan**. Diese Abbildung zeigt eine **Zählschleife**. Die **Zählvariable i** wird *vor Beginn der Schleife* auf ihren **Startwert i=1** gesetzt. Danach wird die erste Anweisung der **Schleife**, das **Ausgeben der Variable i**, ausgeführt. Die nachfolgende zweite Anweisung ist eine Auswahl, die prüft, ob **i** den **Wert 39** besitzt. *Wenn dies der Fall ist*, wird **i** auf den **Wert 61** gesetzt und die **Schleife** beginnt mit dem *nächsten Durchlauf*. Falls **i** nicht **39** ist, wird **i** in der nachfolgenden Anweisung um **eins** erhöht und anschließend geprüft, ob die **Schleifenfortsetzungsbedingung i≤100** gültig ist. Falls *ja*, erfolgt ein *nochmaliger Schleifendurchlauf*. Ausgegeben würden **alle natürlichen Zahlen von 1 bis 39 sowie 61 bis 100** (jeweils einschließlich). 
 ### *Variablen*
-- Jedes *Computerprogramm* verarbeitet **Daten**, welch unterschiedlichen **Typs** sein können und als solche wiederum verschiedene **Werte** besitzen. Die **Daten** stellen das **'Material'** dar, das ein *Programm* verarbeitet. Im Rahmen dieser Verarbeitung müssen die Werte natürlich *(zwischen-)gespeichert* werden, um bei Bedarf auf sie zugreifen zu können. **Variablen** sind dabei eine Art **'Lesezeichen'**, das auf den *Speicherort* verweist und angibt, wie dieser angesprochen werden kann. Darüber hinaus enthält sie *Informationen* über den gespeicherten **Datentyp**. 
+Jedes *Computerprogramm* verarbeitet **Daten**, welche unterschiedlichen **Typs** sein können und als solche wiederum verschiedene **Werte** besitzen. Die **Daten** stellen das **'Material'** dar, das ein *Programm* verarbeitet. Im Rahmen dieser Verarbeitung müssen die Werte natürlich *(zwischen-)gespeichert* werden, um bei Bedarf auf sie zugreifen zu können. **Variablen** sind dabei eine Art **'Lesezeichen'**, das auf den *Speicherort* verweist und angibt, wie dieser angesprochen werden kann. Darüber hinaus enthält sie *Informationen* über den gespeicherten **Datentyp**. 
 ### *Wertezuweisung*
-- Wertezuweisung
+- **Werte** werden mithilfe von **Operatoren** zugewiesen. Diese **Operator** können zum Beispiel **=**, **++**, **--** oder **+=** sein.
 #### Inkrementoperator
-- Inkrementoperator
+- Ein Beispiel für ein **Operator** ist der **Inkrementoperator**. Dieser sorgt dafür, dass der *Wert* der **Variable** schrittweise erhöht wird -> Definition von **Inkrementieren**
+- Das Gegenstück von **Inkrementieren** ist das **Dekrementieren**, hierbei wird der *Wert* der **Variable** schrittweise vermindert -> **Dekrementoperator**
+- **Inkrementoperator** können zum Beisipel genutzt werden, um die Anzahl an Stichpunkten auf einer Liste zu zählen.
+
+Beispiel für den Einsatz eines **Inkrementoperators**:
+![Beispiel-Inkrementoperator](https://mein-javablog.de/wp-content/uploads/2016/08/Java-Operatoren-Inkrement-Dekrement.png)
+
+[Bildquelle](https://mein-javablog.de/wp-content/uploads/2016/08/Java-Operatoren-Inkrement-Dekrement.png)
+
+Hierbei ist der **Inkrementoperator** das **++**, der **Dekrementoperator** wäre an dieser Stelle **--**.
 ### *Datentypen*
-- Datentypen
+- Es gibt *8* **primitive Datentypen**, die restlichen Datentypen nennt man **Objekte**. Die *8* **primitiven Datentypen** heißen **byte, short, int(integer), long, float, double, char(character)** und **boolean**. Alle außer **char** und **boolean** speichern **Zahlenwerte**, da Zahlen eine sehr wichtige Rolle in **Java** spielen. Diese sogenannten **numerischen Java Typen** lassen sich in **ganzzahlige Typen** und **Gleitpunkttypen** unterteilen. **byte, short, int** und **long** sind **ganzzahlige Typen** und **float** und **double** sind **Gleitpunkttypen**.  Jeder von ihnen besitzt eine festgelegte Anzahl an **Bit** (=0 oder 1), wodurch die **Werte** dargestellt werden und das ist auch der Grund dafür, dass es mehrere **Datentypen** für die selbe Aufgabe gibt, sie haben eine *unterschiedliche Menge* an **Speicherplatz**.  
+  
 #### Typecasting
-- Typecasting
+- **Typecasting** (auf deutsch Typumwandlung) unterteilt man in **explizite** und **implizite Typumwandlung**. Die **implizite Typumwandlung** findet *automatisch* bei der *Zuweisung* statt. Dies geht jedoch nur, wenn ein **niederwertiger Datentyp** in einen **höherwertigen Datentypen** umgewandelt wird, also zum Beispiel vom **Datentyp int** in den **Datentyp long** (**int** hat einen geringeren *Speicherplatz* zur Verfügung als **long**). 
+- Die **explizite Umwandlung** erfolgt durch den sogenannten **cast-Operator**. Hier wird von einem **höherwertigen Datentyp** in einen **niederwertigen Datentypen** umgewandelt, also zum Beisipel vom **Datentyp long** in den **Datentyp int** (**long** hat einen höheren *Speicherplatz* zur Verfügung als **int**). In welchen **Datentyp** umgewandelt werden soll, muss bei dem **cast-Operator** *explizit* angegeben werden. 
+
 ### *Bedingungen (if und switch)*
 - Bedingungen
 #### verschachtelte Bedingungen
