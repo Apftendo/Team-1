@@ -106,24 +106,60 @@ Beispiel für den Einsatz eines **Inkrementoperators**:
 
 Hierbei ist der **Inkrementoperator** das **++**, der **Dekrementoperator** wäre an dieser Stelle **--**.
 ### *Datentypen*
-- Es gibt *8* **primitive Datentypen**, die restlichen Datentypen nennt man **Objekte**. Die *8* **primitiven Datentypen** heißen **byte, short, int(integer), long, float, double, char(character)** und **boolean**. Alle außer **char** und **boolean** speichern **Zahlenwerte**, da Zahlen eine sehr wichtige Rolle in **Java** spielen. Diese sogenannten **numerischen Java Typen** lassen sich in **ganzzahlige Typen** und **Gleitpunkttypen** unterteilen. **byte, short, int** und **long** sind **ganzzahlige Typen** und **float** und **double** sind **Gleitpunkttypen**.  Jeder von ihnen besitzt eine festgelegte Anzahl an **Bit** (=0 oder 1), wodurch die **Werte** dargestellt werden und das ist auch der Grund dafür, dass es mehrere **Datentypen** für die selbe Aufgabe gibt, sie haben eine *unterschiedliche Menge* an **Speicherplatz**.  
+- Es gibt *8* **primitive Datentypen**, die restlichen Datentypen nennt man **Objekte**. Die *8* **primitiven Datentypen** heißen **byte, short, int(integer), long, float, double, char(character)** und **boolean**. Alle außer **char** und **boolean** speichern **Zahlenwerte**, da Zahlen eine sehr wichtige Rolle in **Java** spielen. Diese sogenannten **numerischen Java Typen** lassen sich in **ganzzahlige Typen** und **Gleitpunkttypen** unterteilen. **byte, short, int** und **long** sind **ganzzahlige Typen** und **float** und **double** sind **Gleitpunkttypen**.  Jeder von ihnen besitzt eine festgelegte Anzahl an **Bit** (=0 oder 1), wodurch die **Werte** dargestellt werden und das ist auch der Grund dafür, dass es mehrere **Datentypen** für die selbe Aufgabe gibt, denn sie haben eine *unterschiedliche Menge* an **Speicherplatz**.  
   
 #### Typecasting
 - **Typecasting** (auf deutsch Typumwandlung) unterteilt man in **explizite** und **implizite Typumwandlung**. Die **implizite Typumwandlung** findet *automatisch* bei der *Zuweisung* statt. Dies geht jedoch nur, wenn ein **niederwertiger Datentyp** in einen **höherwertigen Datentypen** umgewandelt wird, also zum Beispiel vom **Datentyp int** in den **Datentyp long** (**int** hat einen geringeren *Speicherplatz* zur Verfügung als **long**). 
 - Die **explizite Umwandlung** erfolgt durch den sogenannten **cast-Operator**. Hier wird von einem **höherwertigen Datentyp** in einen **niederwertigen Datentypen** umgewandelt, also zum Beisipel vom **Datentyp long** in den **Datentyp int** (**long** hat einen höheren *Speicherplatz* zur Verfügung als **int**). In welchen **Datentyp** umgewandelt werden soll, muss bei dem **cast-Operator** *explizit* angegeben werden. 
+  
+[Textquelle](https://www.java-tutorial.org/typecasting.html)
 
 ### *Bedingungen (if und switch)*
-- Bedingungen
+![Beispiel-If-Bedingung](https://im.contentlounge.net/styles/manual_crop/s3/bedingungen-in-java-der-if-befehl_262da51c.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=4294d576e5b618cb58bd906cfc1e933a952cefde59a921934f3da4fe1ab41b50)
+[Bildquelle](https://im.contentlounge.net/styles/manual_crop/s3/bedingungen-in-java-der-if-befehl_262da51c.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=4294d576e5b618cb58bd906cfc1e933a952cefde59a921934f3da4fe1ab41b50)
+
+- Im oberen Bild sieht man ein *Beispiel* für eine **if-Bedingung**. Vor der **Bedingung** wird die **Variable x** als **7 initialisiert**. Die **Bedingung** lautet **x < 5**, also wenn die **Bedingung** zutrifft (*wenn x kleiner als 5 ist*), dann wird **"Kleiner als 5!"** ausgegeben. Wenn man noch schreiben möchte, was passiert, wenn die **Bedingung** nicht zutrifft, so schreibt man **"else"**. In diesem Fall würde, wenn die **Bedingung** nicht zutrifft, **"Nicht kleiner als 5!"** ausgegeben werden.
+
+[Textquelle](https://praxistipps.chip.de/java-programmieren-lernen-bedingungen-und-schleifen_97989)
+
+![Beispiel-switch-Bedingung](https://im.contentlounge.net/styles/manual_crop/s3/java-switch-befehle-verwenden_d10eb2ca.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=0477d9feda8cc1a7830777530f6ab4fa48869d843a01199b7b64e707e9b99510)
+[Bildquelle](https://im.contentlounge.net/styles/manual_crop/s3/java-switch-befehle-verwenden_d10eb2ca.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=0477d9feda8cc1a7830777530f6ab4fa48869d843a01199b7b64e707e9b99510)
+
+- Im oberen Bild kann man ein *Beispiel* für eine **switch-Bedingung** sehen. Diese testet, ob der **Wert** einer **Variable** einem **bestimmten Wert** gleich. In diesem Fall wird vor der **Bedingung** die **Variable day** als **3 initialisert**. In der **Bedingung** schreibt man nun **"switch (day)"** und dann entsprechend **"case 1"** (also wenn switch = 1) , **"case 2"**... mit der jeweiligen *Auswirkung*, was bei dem entsprechenden Fall passieren soll. Schreibt man innerhalb des **"case"** noch ein **"break"**, so wird die **Bedingung** ab genau dem Punkt unterbrochen, solange sie zutrifft. Falls keine der Bedingungen zutrifft, wird das ausgeführt, was unter **"default"** steht. 
+
+[Textquelle](https://praxistipps.chip.de/java-programmieren-lernen-bedingungen-und-schleifen_97989)
 #### verschachtelte Bedingungen
-- verschachtelte Bedingungen
+![Beispiel-Struktogramm](https://upload.wikimedia.org/wikipedia/commons/5/5f/MehrfAusw.png)
+
+[Bildquelle](https://upload.wikimedia.org/wikipedia/commons/5/5f/MehrfAusw.png)
+
+- Dieses *Beispiel* für eine **verschachtelte Bedingung** konnte man schon beim Thema **"Struktogramm"** sehen, denn dies ist ein **Struktrogramm** zu einer **verschachtelten Bedingung**. Diese sagt in diesem Fall aus, dass wenn **Bedingung 1** zutrifft, man zu **Bedingung 2** weitergeleitet wird. Wenn **Bedingung 1** nicht zutrifft, so kommt man zu **Anweisungsblock 3**. Wenn **Bedingung 1** zutrifft, aber **Bedingung 2** nicht, so kommt man zu **Anweisungsblock 2**. Wenn **Bedingung 1 und 2** zutreffen, so kommt man zu **Anweisungsblock 1**. Kurz gesagt ist eine **verschachtelte Bedingung** eine **Bedingung**, die dann eintritt, wenn eine andere **Bedingung** zutrifft.
+
+Textquelle: selbst geschrieben
 ### *Schleifen*
-- Schleifen
+- Schleifen wiederholen einen **Anweisungs-Block** (*Schleifenrumpf bzw. Schleifenkörper*) solange die **Schleifenbedingung** gültig bleibt bzw. keine *Abbruchbedingung* erfüllt ist.
 #### for
-- for
+![Beispiel-for-Schleife](https://im.contentlounge.net/styles/manual_crop/s3/for-schleifen-programmieren_b8646ae2.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=b45abf47f93971c3bea168a495e2e24eddd7d3fb603bb49ba246117bebd11f4d)
+[Bildquelle](https://im.contentlounge.net/styles/manual_crop/s3/for-schleifen-programmieren_b8646ae2.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=b45abf47f93971c3bea168a495e2e24eddd7d3fb603bb49ba246117bebd11f4d)
+
+- Im oberen Bild erkennt man ein *Beispiel* für eine **for-Schleife**. Die **Syntax** lautet: **"for (initialization; condition; increment/decrement) {"**. In diesem Fall ist die **initialization** (*Initialiserung*) **int x = 1**, die **condition** (*Bedingung*) **x <= 5** und das **increment/decrement** (*Inkrement/Dekrement*) **x++**. Also wenn bei der **Variable x = 1 x <= 5** gilt (*also wenn x 5 oder kleiner ist*), wird **x** um **1** erhöht und dann ausgegeben. In diesem Falle würden also die Zahlen *1, 2, 3, 4 und 5* nacheinander ausgegeben werden.
+
+[Textquelle](https://praxistipps.chip.de/java-programmieren-lernen-bedingungen-und-schleifen_97989)
 #### while
-- while
+![Beispiel-while-Schleife](https://im.contentlounge.net/styles/manual_crop/s3/die-while-schleife_823b40a3.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=23b918b93db6d90236f7182b0c98dd987e4bb65c814e087f8695e81ef770a26e)
+[Bildquelle](https://im.contentlounge.net/styles/manual_crop/s3/die-while-schleife_823b40a3.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=23b918b93db6d90236f7182b0c98dd987e4bb65c814e087f8695e81ef770a26e)
+
+- Im oberen Bild sieht man ein *Beispiel* für eine **while-Schleife**. Um diese in den **Quellcode** einzubauen, schreibt man zunächst **"while (...) {"**. In die *runde Klammer* kommt eine **Bedingung** und in die *geschweifte Klammer* kommt wieder der Befehl, der ausgeführt werden soll. In diesem *Beispiel* wird vor der **Schleife** die **Variable x** als **3 initialisert**. Die **Bedingung** lautet **"x > 0"** und wenn dies zutrifft, dann wird zunächst **"x"** ausgegeben und dann wird **"x"** um **1 verringert**. Also würden hier die **Werte 3, 2 und 1** nacheinander ausgegeben werden. Falls die **Bedingung** nicht zutreffen sollte, so führt das *Programm* die Befehle aus, die nach der **Schleife** stehen.
+
+[Textquelle](https://praxistipps.chip.de/java-programmieren-lernen-bedingungen-und-schleifen_97989)
+
 #### do-while
-- do-while
+![Beisipel-do-while-Schleife](https://im.contentlounge.net/styles/manual_crop/s3/java-do-while-schleifen_e8ee10be.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=1cbfb757f755d72c20c96ff4ddbe8a1a90dc13a2a51f09fd847e3ae6373467c1)
+[Bildquelle](https://im.contentlounge.net/styles/manual_crop/s3/java-do-while-schleifen_e8ee10be.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=1cbfb757f755d72c20c96ff4ddbe8a1a90dc13a2a51f09fd847e3ae6373467c1)
+
+- Im oberen Bild sieht man ein *Beispiel* für eine **do-while-Schleife**. Der einzige Unterschied zwischen einer **do-while-Schleife** und einer **while-Schleife** ist, dass bei einer **do-while-Schleife** die Befehle mindestens einmal ausgeführt werden, bevor die **Bedingung** geprüft wird. Man schreibt einfach **"do {"** und danach den Befehl mit einer weiteren *geschweiften Klammer* und danach den **while-Befehl**. In diesem Beispiel wird vor der **Schleife** die **Variable x** als **1** initialisert. In der **Schleife** wird zunächst *"Hallo"* ausgegeben und dann wird die **Variable x** um **1** erhöht und dann wird geprüft, ob **x < 5**. Also wird *4 mal "Hallo"* ausgegeben.
+
+[Textquelle](https://praxistipps.chip.de/java-programmieren-lernen-bedingungen-und-schleifen_97989)
 ## **Einführung in die objektorientierte Programmierung**
 ### *Klasse*
 - Klasse
