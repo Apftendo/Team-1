@@ -135,7 +135,6 @@ Hierbei ist der **Inkrementoperator** das **++**, der **Dekrementoperator** wär
 
 - Dieses *Beispiel* für eine **verschachtelte Bedingung** konnte man schon beim Thema **"Struktogramm"** sehen, denn dies ist ein **Struktrogramm** zu einer **verschachtelten Bedingung**. Diese sagt in diesem Fall aus, dass wenn **Bedingung 1** zutrifft, man zu **Bedingung 2** weitergeleitet wird. Wenn **Bedingung 1** nicht zutrifft, so kommt man zu **Anweisungsblock 3**. Wenn **Bedingung 1** zutrifft, aber **Bedingung 2** nicht, so kommt man zu **Anweisungsblock 2**. Wenn **Bedingung 1 und 2** zutreffen, so kommt man zu **Anweisungsblock 1**. Kurz gesagt ist eine **verschachtelte Bedingung** eine **Bedingung**, die dann eintritt, wenn eine andere **Bedingung** zutrifft.
 
-Textquelle: selbst geschrieben
 ### *Schleifen*
 - Schleifen wiederholen einen **Anweisungs-Block** (*Schleifenrumpf bzw. Schleifenkörper*) solange die **Schleifenbedingung** gültig bleibt bzw. keine *Abbruchbedingung* erfüllt ist.
 #### for
@@ -162,11 +161,15 @@ Textquelle: selbst geschrieben
 [Textquelle](https://praxistipps.chip.de/java-programmieren-lernen-bedingungen-und-schleifen_97989)
 ## **Einführung in die objektorientierte Programmierung**
 ### *Klasse*
-- Klasse
+- In einer **Klasse** sind **Methoden** und **Eigenschaften** eines **Objektes** definiert. Die **Klasse** dient als *Vorlage*, aus der dann beliebig viele **Objekte** erzeugt werden können. 
+  
+[Textquelle](https://www.a-coding-project.de/ratgeber/java/klassen-und-objekte)
 #### Bedeutung und Implementation
 - Bedeutung und Implementation
 ### *Objekte*
-- Objekte
+- Um ein **Objekt** tatsächlich zu erzeugen (zu konstruieren), wird eine bestimmte *Funktion* innerhalb der **Klasse** aufgerufen, die man deshalb auch **Konstruktor** nennt. Man erkennt sie daran, dass sie den gleichen Namen hat wie die **Klasse**. **Eigenschaften** beschreiben das **Objekt**. Die **Eigenschaften** kann man abfragen und man kann sie ändern. 
+  
+[Textquelle](https://www.a-coding-project.de/ratgeber/java/klassen-und-objekte)
 #### Begriff der Initialisierung und Abgrenzung zur Klasse
 - Begriff der Initialisierung und Abgrenzung zur Klasse
 ### *Klassendiagramme*
