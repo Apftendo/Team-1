@@ -229,7 +229,7 @@ public class App {
         System.out.println("Du betrittst die mine und Beginnst deinen abstieg.");
 
         if (blau == true) {
-            System.out.println("Das erste was dir schon nach wenigen metern auffällt ist das der Gang ausgeleuchtet ist.\n An den Wänden befinden sich fakeln. Der bisher geradlinige weg spaltet sich in zwei gänge, aus dem rechten kommt ein leichtes blaues Leuchten, \naus dem linken hört man das leichte plätschern von Wasser(Q)");
+            System.out.println("Das erste was dir schon nach wenigen metern auffällt ist das der Gang ausgeleuchtet ist.\nAn den Wänden befinden sich fakeln. Der bisher geradlinige weg spaltet sich in zwei gänge, aus dem rechten kommt ein leichtes blaues Leuchten, \naus dem linken hört man das leichte plätschern von Wasser(Q)");
             System.out.println("Gehst du links oder rechts?");
         }
 
@@ -329,14 +329,34 @@ public class App {
             System.out.println("Mitte");
             System.out.println("Du betrittst den etwas unangenehm riechenden mittleren Gang und findest auch schnell herauf, warum es so stinkt.\nMan hört die Fliegen eher surren als das man die Leiche sieht, aber am Boden des Raumes vor dir liegt eine Leiche.\nWarum da eine Leiche liegt, kannst du auch schnell erkennen, der Raum ist rechteckig und geht genauso weit in die tiefe, wie er hoch ist, ein fall wäre, wie schon vom Vorgänger unten demonstriert, tödlich.\nGefallen ist der Arme Wurm wohl da eine der Morschen Holzplanken der Schienen, über die man laufen muss, um auf die andere Seite zu kommen, durchgebrochen ist als er auf ihr ging.\nZu deinem Glück und seinem Pech war, das wohl die einzige wirklich Zerbrechliche Planke und du kannst, vorsichtig hinüber gehen.");
             System.out.println("Auf halbem Weg hörst du ein leises Rumpeln aus einem der abgehenden Gänge.");
-            System.out.println("Was tust du?");
+            System.out.println("Was tust du? Vorsichtig weitergehen(V)  Los rennen (L)  Abwarten(A)");
 
         }
 
          String entscheidung8 = scanner.nextLine();
 
+         if (entscheidung8.equals("V")) {
+            System.out.println("Du gehst vorsichtig weiter");
+            System.out.println("Du gehst vorsichtig weiter und ignorierst das Geräusch.\nwährend du dich auf den weg konzentrierst, kommt von hinten eine Lore aus einem der Seitengänge und biegt auf die Schienen, auf denen du gerade gehst ein.\nBevor du dich entscheiden kannst schleudert dich die Lore mit voller Kraft gegen die Wand am anderen Ende des Raumes und bricht dir das Rückardt,\nsodass du selbst wenn du die Chance gehabt hättest dich nicht mehr retten kannst und zur Gesellschaft des letzten Opferst wirst.");
+            System.out.println("Dead");
+            return;
+         }
+         else if (entscheidung8.equals("L")) {
+            System.out.println("Du rennst los");
+            System.out.println("Um dem was auch immer da gerade angerauscht komm auszuweichen rennst du los, jedoch hast du die Stabilität der Holzbretter unterschätzt.\nDir bricht bei einem Schritt der Boden unter den Füßen weg und du stürzt in den Tod.");
+            System.out.println("Dead");
+            return;
+         }
+         else if (entscheidung8.equals("A")) {
+            System.out.println("Du wartest ab");
+            System.out.println("Du wartest und konzentrierst dich auf das Rumpeln.\nNach nicht anzulangen Zeit rauscht vor dir eine Lore aus einem Nebenschacht biegt auf deinen weg ein und verschwindet nach einer weiteren Kurve in einem anderen Nebenschacht.");
+            System.out.println("Nachdem die Lore verschwunden ist gehst du vorsichtig weiter.");
+            
+         }
 
+         boolean zufall = false;
 
+         zufallsgenerator myObj = new zufallsgenerator();
 
 
 
