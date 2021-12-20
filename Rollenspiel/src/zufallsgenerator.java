@@ -1,7 +1,10 @@
 import java.util.Random;
 
+
+// static -> Klassenmethoden. Wir wollen aber immer Objektmethoden außer es gibt echt wichtige Gründe
+// Klassen werden groß geschrieben
 public class zufallsgenerator {
-    public static void main(String[] args) {
+    public void zufall() {
 
     int[] arr= {
         1,2
@@ -10,6 +13,7 @@ public class zufallsgenerator {
     int randomnumber=r.nextInt(arr.length)+1;
 		
         randomnumber=r.nextInt(arr.length)+1;
+        System.out.println("Methpde Zufall ->:" + randomnumber);
 		// 0 oder 1 ->  +1  -> 1 oder 2
         boolean zufall = false;
 		switch (randomnumber) {

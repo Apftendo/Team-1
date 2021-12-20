@@ -1,7 +1,10 @@
 import java.util.Scanner;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+
+        Countdown count = new Countdown();
+        count.ablauf();
 
         Scanner scanner = new Scanner(System.in);
 
@@ -356,7 +359,12 @@ public class App {
 
          boolean zufall = false;
 
-         zufallsgenerator myObj = new zufallsgenerator();
+         zufallsgenerator randomGen = new zufallsgenerator();
+         randomGen.zufall();
+        
+       
+        
+         
 
 
 
