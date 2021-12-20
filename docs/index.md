@@ -10,22 +10,22 @@
     - [x] Quellcode
     - [x] Struktogramm
     - [x] Programmablaufplan  
-  - [ ] Variablen
-  - [ ] Wertezuweisung
-    - [ ] Inkrementoperator
-  - [ ] Datentypen
-    - [ ] Typecasting  
-  - [ ] Bedingungen (if und switch)
-    - [ ] verschachtelte Bedingungen
-  - [ ] Schleifen
-    - [ ] for
-    - [ ] do
-    - [ ] do-while  
+  - [x] Variablen
+  - [x] Wertezuweisung
+    - [x] Inkrementoperator
+  - [x] Datentypen
+    - [x] Typecasting  
+  - [x] Bedingungen (if und switch)
+    - [x] verschachtelte Bedingungen
+  - [x] Schleifen
+    - [x] for
+    - [x] do
+    - [x] do-while  
 
 - [ ] Einführung in die objektorientierte Programmierung
-  - [ ] Klasse
+  - [x] Klasse
     - [ ] Bedeutung und Implementation
-  - [ ] Objekte
+  - [x] Objekte
     - [ ] Begriff der Initialisierung und Abgrenzung zur Klasse
   - [ ] Klassendiagramme
   - [ ] Objektdiagramme
@@ -135,7 +135,6 @@ Hierbei ist der **Inkrementoperator** das **++**, der **Dekrementoperator** wär
 
 - Dieses *Beispiel* für eine **verschachtelte Bedingung** konnte man schon beim Thema **"Struktogramm"** sehen, denn dies ist ein **Struktrogramm** zu einer **verschachtelten Bedingung**. Diese sagt in diesem Fall aus, dass wenn **Bedingung 1** zutrifft, man zu **Bedingung 2** weitergeleitet wird. Wenn **Bedingung 1** nicht zutrifft, so kommt man zu **Anweisungsblock 3**. Wenn **Bedingung 1** zutrifft, aber **Bedingung 2** nicht, so kommt man zu **Anweisungsblock 2**. Wenn **Bedingung 1 und 2** zutreffen, so kommt man zu **Anweisungsblock 1**. Kurz gesagt ist eine **verschachtelte Bedingung** eine **Bedingung**, die dann eintritt, wenn eine andere **Bedingung** zutrifft.
 
-Textquelle: selbst geschrieben
 ### *Schleifen*
 - Schleifen wiederholen einen **Anweisungs-Block** (*Schleifenrumpf bzw. Schleifenkörper*) solange die **Schleifenbedingung** gültig bleibt bzw. keine *Abbruchbedingung* erfüllt ist.
 #### for
@@ -162,18 +161,52 @@ Textquelle: selbst geschrieben
 [Textquelle](https://praxistipps.chip.de/java-programmieren-lernen-bedingungen-und-schleifen_97989)
 ## **Einführung in die objektorientierte Programmierung**
 ### *Klasse*
-- Klasse
+- In einer **Klasse** sind **Methoden** und **Eigenschaften** eines **Objektes** definiert. Die **Klasse** dient als *Vorlage*, aus der dann beliebig viele **Objekte** erzeugt werden können. 
+- Als erstes stehen in der **Klasse** die **Attribute** oder auch **Eigenschaften**. Die **Variablen**, die du am Anfang der Klasse **deklarierst**, werden **Attribute** genannt. Zu **Eigenschaften** werden sie erst, wenn du ein **Objekt** der **Klasse** mit der **Variable** erzeugst.
+- Im Anschluss kann man **Methoden** programmieren. Hier kommen dann alle *Befehle* rein, welche die **Klasse** bei Aufruf ausführen kann. Auch kann man **Methoden** schreiben, welche dann auf deine **Klassenvariablen** zugreifen können. Man spricht dabei von **Getter und Setter Methoden**. Eine besondere **Methode** ist der sogenannte **Konstruktor**.
+- Zusammenfassend besteht also eine **Java Klasse** aus der **Deklaration**, den **Attributen** in Form von **Variablen** und den **Funktionen** in Form von **Methoden**.
+  
+[Textquelle](https://www.a-coding-project.de/ratgeber/java/klassen-und-objekte)
 #### Bedeutung und Implementation
-- Bedeutung und Implementation
+- **Klassen** stellen in der **objektorientierten Programmierung** die zentralen **Organisationseinheiten** eines **Quelltextes** dar. Sie fungieren als eine Art Bauplan, der die grundlegenden *Eigenschaften und Fähigkeiten* eines komplexen **Datentyps** definiert.
+  
+[Textquelle](https://javabeginners.de/Klassen_und_Interfaces/Klassen.php)
 ### *Objekte*
-- Objekte
+- Um ein **Objekt** tatsächlich zu erzeugen (zu konstruieren), wird eine bestimmte *Funktion* innerhalb der **Klasse** aufgerufen, die man deshalb auch **Konstruktor** nennt. Man erkennt sie daran, dass sie den gleichen Namen hat wie die **Klasse**. **Eigenschaften** beschreiben das **Objekt**. Die **Eigenschaften** kann man abfragen und man kann sie ändern. Ein **Objekt** ist eine *Beschreibung* von zum Beispiel einem *Auto*, mit **Attributen** und einem *festen Zustand*. Eine Verallgemeinerung aller **Auto-Objekte** ist dann eine **Klasse**. Sie enthält alle **Attribute**, welche ein Auto haben kann, weist diesen **Attributen** jedoch noch keinen Wert zu.
+  
+[Textquelle1](https://www.a-coding-project.de/ratgeber/java/klassen-und-objekte)
+
+[Textquelle2](https://studyflix.de/informatik/java-klassen-1902)
 #### Begriff der Initialisierung und Abgrenzung zur Klasse
-- Begriff der Initialisierung und Abgrenzung zur Klasse
+- Ein **Objekt** wird **initialisiert**, wenn ihm ein *Wert zugewiesen* wird. Die **Initialisierung** kann getrennt oder zusammen mit der **Deklaration** stattfinden. Eine **Klasse** definiert die **Eigenschaften** (*Instanzvariablen oder Felder*) und das *Verhalten (Methoden)* von *(gleichartigen) Objekten*. Also ist ein **Objekt** im Prinzip der **Klasse** untergeordnet.
 ### *Klassendiagramme*
-- Klassendiagramme
+- Ein **Klassendiagramm** ist ein **Strukturdiagramm** der *Unified Modeling Language (UML)* zur grafischen Darstellung (*Modellierung*) von **Klassen**, **Schnittstellen** sowie deren **Beziehungen**.
+- Bei einem **Klassendiagramm** werden nur *allgemeine Informationen* angegeben, es werden keine **Werte** zugewiesen.
+
+[Textquelle](https://de.wikipedia.org/wiki/Klassendiagramm)
 ### *Objektdiagramme*
-- Objektdiagramme
+![Beispiel-Objektdiagramm](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/UmlOd-Beispiel-1.svg/450px-UmlOd-Beispiel-1.svg.png)
+
+[Bildquelle](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/UmlOd-Beispiel-1.svg/450px-UmlOd-Beispiel-1.svg.png)
+
+Im Bild sieht man ein **Objektdiagramm**, welches die beiden Personen *Hans und Peter* beschreibt, denn ein **Objektdiagramm** gibt den *Zustand* eines **Objekts** mit den jeweiligen **Werten** an. In diesem Fall werden die **Attribute** *Alter*, *Vor- und Nachname* von *zwei Personen* beschrieben. 
 ### *Konstruktoren*
-- Konstruktoren
+- In einer **Klasse** ist der **Java Konstruktor** eine **Methode**, die den gleichen Namen wie die **Klasse** hat. Sie wird dazu verwendet, ein neues **Objekt** dieser einen **Klasse** zu erstellen. Das ist der Grund, weshalb jede *Klasseninstanz* einen **Konstruktor** haben muss. Daher kommt auch der Name **Konstruktor**, da er etwas **"konstruiert"**. 
 ### *Objektmethoden*
-- Objektmethoden
+
+- **Methoden** einer **Klasse** bzw. eines **Objektes** sind *Handlungen*, die das **Objekt** ausführen kann. (*Ein Roboter kann zum Beispiel laufen.*)
+  
+- Im Unterschied zur **Klassenmethode** muss eine **Objektmethode** an einem konkret **instanziierten Objekt** aufgerufen werden, dies ist bei **Klassenmethoden** nicht der Fall.
+
+- **Objektmethoden** können im Gegensatz zu **Klassenmethoden** nur mit dem Namen einer 
+**Variablen** der **Klasse**, nicht mit dem Namen der **Klasse** selbst aufgerufen 
+werden.
+- Bei der **Syntax** steht bei einer **Klassenmethode** ein "**static**" (vor dem **void**), welches bei einer **Objektmethode** nicht benutzt wird:
+  
+  *public void objektMethode ()*
+
+  *public static void klassenMethode ()*
+
+[Textquelle1](https://lernjava.de/klassenmethoden-und-objektmethoden/)
+
+[Textquelle2](http://www.ke.tu-darmstadt.de/lehre/archiv/ws0607/ai1/material/AI-4-a-Methoden.pdf)
