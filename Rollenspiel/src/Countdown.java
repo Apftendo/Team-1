@@ -8,7 +8,7 @@ public class Countdown {
 	
 		zahl = zahl -1;
 		System.out.println(zahl);
-		TimeUnit.SECONDS.sleep(1);
+        TimeUnit.SECONDS.sleep(1);
     } while(zahl>1);
     TimeUnit.SECONDS.sleep(1);
     System.out.println("Spiel startet!!");
