@@ -70,9 +70,34 @@
 ## **Einführung in die Programmierung (Kontrollstrukturen)**
 ### *Kontrollstrukturen*
 #### Quellcode
-  ![Beispiel-Quellcode](https://www.researchgate.net/profile/Md-Masudur-Rahman-2/publication/317401664/figure/fig2/AS:504826271408129@1497371370743/Source-Code-Example-Customerjava-Partial.png)
-  
-[Bildquelle](https://www.researchgate.net/profile/Md-Masudur-Rahman-2/publication/317401664/figure/fig2/AS:504826271408129@1497371370743/Source-Code-Example-Customerjava-Partial.png)
+
+```Java
+package rentalStore;
+import java.util.Enumeration;
+import Java.util.Vector;
+
+class Customer {
+  private String _name;
+  private Vector<Rentel> _rentals = nw Vector<Rental>();
+
+  public Customer(String name) {
+    _name = name;
+  }
+  public String getMovie (Movie movie) {
+    Rental rental = new Rental (new Movie ("", Movie.New_Release), 10);
+    Movie m = rental._movie; 
+    return movie.getTitle();
+    }
+    public void addRental (Rental arg) {
+      _rentals.addElement (arg);
+    }
+    public String getName() {
+      return _name; 
+
+    }
+}
+```
+[Quelle](https://www.researchgate.net/profile/Md-Masudur-Rahman-2/publication/317401664/figure/fig2/AS:504826271408129@1497371370743/Source-Code-Example-Customerjava-Partial.png)
 
 Hier zu sehen ist ein **Beispielquellcode** aus **Java**. 
 
@@ -101,9 +126,17 @@ Jedes *Computerprogramm* verarbeitet **Daten**, welche unterschiedlichen **Typs*
 - **Inkrementoperator** können zum Beisipel genutzt werden, um die Anzahl an Stichpunkten auf einer Liste zu zählen.
 
 Beispiel für den Einsatz eines **Inkrementoperators**:
-![Beispiel-Inkrementoperator](https://mein-javablog.de/wp-content/uploads/2016/08/Java-Operatoren-Inkrement-Dekrement.png)
-
-[Bildquelle](https://mein-javablog.de/wp-content/uploads/2016/08/Java-Operatoren-Inkrement-Dekrement.png)
+```Java
+public class Inkrement {
+  public static void main (String[] args) {
+    int i = 2; 
+    i++; //Das funktioniert
+    System.out.println("Nach der Inkrementierung; " +i);
+    S--; //Mit einer einfachen Zahl funktioniert dies nicht
+  }
+}
+```
+[Quelle](https://mein-javablog.de/wp-content/uploads/2016/08/Java-Operatoren-Inkrement-Dekrement.png)
 
 Hierbei ist der **Inkrementoperator** das **++**, der **Dekrementoperator** wäre an dieser Stelle **--**.
 ### *Datentypen*
@@ -116,15 +149,44 @@ Hierbei ist der **Inkrementoperator** das **++**, der **Dekrementoperator** wär
 [Textquelle](https://www.java-tutorial.org/typecasting.html)
 
 ### *Bedingungen (if und switch)*
-![Beispiel-If-Bedingung](https://im.contentlounge.net/styles/manual_crop/s3/bedingungen-in-java-der-if-befehl_262da51c.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=4294d576e5b618cb58bd906cfc1e933a952cefde59a921934f3da4fe1ab41b50)
-[Bildquelle](https://im.contentlounge.net/styles/manual_crop/s3/bedingungen-in-java-der-if-befehl_262da51c.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=4294d576e5b618cb58bd906cfc1e933a952cefde59a921934f3da4fe1ab41b50)
+```Java
+class Manin {
+  public static void man(String[] args) {
+    int x = 7;
+    if (x < 5>) {
+      System.out.println("Kleiner als 5!");
+    } else {
+      System.out.println("Nicht kleiner als 5!");
+    }
+  }
+}
+```
+[Quelle](https://im.contentlounge.net/styles/manual_crop/s3/bedingungen-in-java-der-if-befehl_262da51c.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=4294d576e5b618cb58bd906cfc1e933a952cefde59a921934f3da4fe1ab41b50)
 
 - Im oberen Bild sieht man ein *Beispiel* für eine **if-Bedingung**. Vor der **Bedingung** wird die **Variable x** als **7 initialisiert**. Die **Bedingung** lautet **x < 5**, also wenn die **Bedingung** zutrifft (*wenn x kleiner als 5 ist*), dann wird **"Kleiner als 5!"** ausgegeben. Wenn man noch schreiben möchte, was passiert, wenn die **Bedingung** nicht zutrifft, so schreibt man **"else"**. In diesem Fall würde, wenn die **Bedingung** nicht zutrifft, **"Nicht kleiner als 5!"** ausgegeben werden.
 
 [Textquelle](https://praxistipps.chip.de/java-programmieren-lernen-bedingungen-und-schleifen_97989)
-
-![Beispiel-switch-Bedingung](https://im.contentlounge.net/styles/manual_crop/s3/java-switch-befehle-verwenden_d10eb2ca.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=0477d9feda8cc1a7830777530f6ab4fa48869d843a01199b7b64e707e9b99510)
-[Bildquelle](https://im.contentlounge.net/styles/manual_crop/s3/java-switch-befehle-verwenden_d10eb2ca.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=0477d9feda8cc1a7830777530f6ab4fa48869d843a01199b7b64e707e9b99510)
+```Java
+class Main { 
+  public static void manin(String[] args){
+    int day = 3;
+    switch (day) {
+      case 1:
+      //...
+      break;
+      case 2:
+      //...
+      break;
+      case 3:
+      //...
+      break;
+      default:
+      //...
+    }
+  }
+}
+```
+[Quelle](https://im.contentlounge.net/styles/manual_crop/s3/java-switch-befehle-verwenden_d10eb2ca.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=0477d9feda8cc1a7830777530f6ab4fa48869d843a01199b7b64e707e9b99510)
 
 - Im oberen Bild kann man ein *Beispiel* für eine **switch-Bedingung** sehen. Diese testet, ob der **Wert** einer **Variable** einem **bestimmten Wert** gleich. In diesem Fall wird vor der **Bedingung** die **Variable day** als **3 initialisert**. In der **Bedingung** schreibt man nun **"switch (day)"** und dann entsprechend **"case 1"** (also wenn switch = 1) , **"case 2"**... mit der jeweiligen *Auswirkung*, was bei dem entsprechenden Fall passieren soll. Schreibt man innerhalb des **"case"** noch ein **"break"**, so wird die **Bedingung** ab genau dem Punkt unterbrochen, solange sie zutrifft. Falls keine der Bedingungen zutrifft, wird das ausgeführt, was unter **"default"** steht. 
 
