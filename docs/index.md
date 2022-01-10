@@ -3,9 +3,10 @@
   - [x] EVA-Prinzip 
   - [x] Algorithmus
   - [x] Compiler und Interpreter
-    - [x] Bedeutung 
+    - [x] Bedeutung
+    - [x] Wie wird aus Quellcode Maschinencode (auf Java bezogen) 
 
-- [ ] Einführung in die Programmierung (Kontrollstrukturen)
+- [x] Einführung in die Programmierung (Kontrollstrukturen)
   - [x] Kontrollstrukturen
     - [x] Quellcode
     - [x] Struktogramm
@@ -22,15 +23,15 @@
     - [x] do
     - [x] do-while  
 
-- [ ] Einführung in die objektorientierte Programmierung
+- [x] Einführung in die objektorientierte Programmierung
   - [x] Klasse
-    - [ ] Bedeutung und Implementation
+    - [x] Bedeutung und Implementation
   - [x] Objekte
-    - [ ] Begriff der Initialisierung und Abgrenzung zur Klasse
-  - [ ] Klassendiagramme
-  - [ ] Objektdiagramme
-  - [ ] Konstruktoren
-  - [ ] Objektmethoden  
+    - [x] Begriff der Initialisierung und Abgrenzung zur Klasse
+  - [x] Klassendiagramme
+  - [x] Objektdiagramme
+  - [x] Konstruktoren
+  - [x] Objektmethoden  
 ## **Allgemeiner Teil**
 ###  *EVA-Prinzip* 
 - **(E)** ingabe
@@ -48,10 +49,10 @@
 #### *Bedeutung*
 - **Compiler** und **Interpreter** sind grundsätzlich dazu da, um den **Quellcode** einer Programmiersprache (**z.B. Java**) in einen **Maschinencode** umzusetzen. 
 #### Compiler
-- Die Aufgabe eines **Compilers** ist es, den **Quellcode** eines Software-Projekts _vor dessen Laufzeit_ zu übersetzen (**Quellcode -> Maschinencode**). Erst nach dem Übersetzen wird das jeweilige Projekt von dem Prozessor ausgeführt, dem dadurch von Beginn an sämtliche Anweisungen in **Maschinencode** zur Verfügung stehen. Vor der endgültigen Übersetzung in Maschinensprache wandeln die meisten Compiler den **Quellcode** nämlich häufig zunächst in einen **Zwischencode** (**auch „Objektcode“**) um, der oft für verschiedene Plattformen geeignet ist und zudem von einem **Interpreter** verwendet werden kann. Zu den “**Compiler-Sprachen**”, also Sprachen, die auf Compiler zurückgreifen gehören z.B. C, C++, Pascal... 
+- Die Aufgabe eines **Compilers** ist es, den **Quellcode** eines Software-Projekts _vor dessen Laufzeit_ zu übersetzen (**Quellcode -> Maschinencode**). Erst nach dem Übersetzen wird das jeweilige Projekt von dem Prozessor ausgeführt, dem dadurch von Beginn an sämtliche Anweisungen in **Maschinencode** zur Verfügung stehen. Vor der endgültigen Übersetzung in Maschinensprache wandeln die meisten Compiler den **Quellcode** nämlich häufig zunächst in einen **Zwischencode** (**auch „Objektcode“**) um, der oft für verschiedene Plattformen geeignet ist und zudem von einem **Interpreter** verwendet werden kann. Zu den “**Compiler-Sprachen**”, also Sprachen, die auf Compiler zurückgreifen, gehören z.B. C, C++, Pascal... 
 #### Interpreter
-- Die Aufgabe eines **Interpreters** ist es, den **Quellcode** eines Software-Projekts während dessen Laufzeit zu übersetzen (**Quellcode -> Maschinencode**) und als Schnittstelle zwischen Prozessor und Projekt zu fungieren. Dabei geht der **Interpreter** *Codezeile für Codezeile* vor -> die einzelnen Anweisungen werden in der Reihenfolge gelesen, analysiert und für den Prozessor aufbereitet. Sobald der **Quellcode** in **Maschinencode** umgewandelt wurde, werden diese an den Prozessor weitergeleitet. Der **Umwandlungsprozess** ist erst abgeschlossen, wenn _alle Code-Zeilen interpretiert_ wurden und der **Umwandlungsprozess** wird nur abgebrochen, falls ein Fehler auftreten sollte. Zu den ,,**Interpreter-Sprachen**”, also Sprachen, die auf Interpreter zurückgreifen gehören z.B. Python, BASIC, Perl... 
-### *Wie wird aus Quellcode Maschinencode (auf Java bezogen)*
+- Die Aufgabe eines **Interpreters** ist es, den **Quellcode** eines Software-Projekts während dessen Laufzeit zu übersetzen (**Quellcode -> Maschinencode**) und als Schnittstelle zwischen Prozessor und Projekt zu fungieren. Dabei geht der **Interpreter** *Codezeile für Codezeile* vor -> die einzelnen Anweisungen werden in der Reihenfolge gelesen, analysiert und für den Prozessor aufbereitet. Sobald der **Quellcode** in **Maschinencode** umgewandelt wurde, werden diese an den Prozessor weitergeleitet. Der **Umwandlungsprozess** ist erst abgeschlossen, wenn _alle Code-Zeilen interpretiert_ wurden und der **Umwandlungsprozess** wird nur abgebrochen, falls ein Fehler auftreten sollte. Zu den ,,**Interpreter-Sprachen**”, also Sprachen, die auf Interpreter zurückgreifen, gehören z.B. Python, BASIC, Perl... 
+#### Wie wird aus Quellcode Maschinencode (auf Java bezogen)
   ![Darstellung-Quellcode->Maschinencode](https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-662-61309-2_1/MediaObjects/160339_2_De_1_Figb_HTML.png)  
   [Bildquelle](https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-662-61309-2_1/MediaObjects/160339_2_De_1_Figb_HTML.png)
 
@@ -93,7 +94,7 @@ Hier zu sehen ist ein **Beispiel-Programmablaufplan**. Diese Abbildung zeigt ein
 ### *Variablen*
 Jedes *Computerprogramm* verarbeitet **Daten**, welche unterschiedlichen **Typs** sein können und als solche wiederum verschiedene **Werte** besitzen. Die **Daten** stellen das **'Material'** dar, das ein *Programm* verarbeitet. Im Rahmen dieser Verarbeitung müssen die Werte natürlich *(zwischen-)gespeichert* werden, um bei Bedarf auf sie zugreifen zu können. **Variablen** sind dabei eine Art **'Lesezeichen'**, das auf den *Speicherort* verweist und angibt, wie dieser angesprochen werden kann. Darüber hinaus enthält sie *Informationen* über den gespeicherten **Datentyp**. 
 ### *Wertezuweisung*
-- **Werte** werden mithilfe von **Operatoren** zugewiesen. Diese **Operator** können zum Beispiel **=**, **++**, **--** oder **+=** sein.
+- **Werte** werden mithilfe von **Operatoren** zugewiesen. 7Diese **Operator** können zum Beispiel **=**, **++**, **--** oder **+=** sein.
 #### Inkrementoperator
 - Ein Beispiel für ein **Operator** ist der **Inkrementoperator**. Dieser sorgt dafür, dass der *Wert* der **Variable** schrittweise erhöht wird -> Definition von **Inkrementieren**
 - Das Gegenstück von **Inkrementieren** ist das **Dekrementieren**, hierbei wird der *Wert* der **Variable** schrittweise vermindert -> **Dekrementoperator**
@@ -191,7 +192,7 @@ Hierbei ist der **Inkrementoperator** das **++**, der **Dekrementoperator** wär
 
 Im Bild sieht man ein **Objektdiagramm**, welches die beiden Personen *Hans und Peter* beschreibt, denn ein **Objektdiagramm** gibt den *Zustand* eines **Objekts** mit den jeweiligen **Werten** an. In diesem Fall werden die **Attribute** *Alter*, *Vor- und Nachname* von *zwei Personen* beschrieben. 
 ### *Konstruktoren*
-- In einer **Klasse** ist der **Java Konstruktor** eine **Methode**, die den gleichen Namen wie die **Klasse** hat. Sie wird dazu verwendet, ein neues **Objekt** dieser einen **Klasse** zu erstellen. Das ist der Grund, weshalb jede *Klasseninstanz* einen **Konstruktor** haben muss. Daher kommt auch der Name **Konstruktor**, da er etwas **"konstruiert"**. 
+- In einer **Klasse** ist der **Java Konstruktor** eine **Methode**, die den gleichen Namen wie die **Klasse** hat. Sie wird dazu verwendet, ein neues **Objekt** dieser einen **Klasse** zu erstellen. Das ist der Grund, weshalb jede *Klasseninstanz* einen **Konstruktor** haben muss. Daher kommt auch der Name **Konstruktor**, da er etwas **"konstruiert"**.
 ### *Objektmethoden*
 
 - **Methoden** einer **Klasse** bzw. eines **Objektes** sind *Handlungen*, die das **Objekt** ausführen kann. (*Ein Roboter kann zum Beispiel laufen.*)
@@ -201,6 +202,7 @@ Im Bild sieht man ein **Objektdiagramm**, welches die beiden Personen *Hans und 
 - **Objektmethoden** können im Gegensatz zu **Klassenmethoden** nur mit dem Namen einer 
 **Variablen** der **Klasse**, nicht mit dem Namen der **Klasse** selbst aufgerufen 
 werden.
+
 - Bei der **Syntax** steht bei einer **Klassenmethode** ein "**static**" (vor dem **void**), welches bei einer **Objektmethode** nicht benutzt wird:
   
   *public void objektMethode ()*
