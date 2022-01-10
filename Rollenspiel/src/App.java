@@ -33,7 +33,7 @@ public class App {
         if (entscheidung1.equals("Nein")) {
             System.out.println(
                     "Nein:\nDu entscheidest dich den Auftrag doch nicht anzunehmen, verlässt die Schenke \nund gehst weiter deiner Wege. Du erfährst nicht welche Geheimnisse und Schätze \nsich in den Ruinen verbergen und gehst zur nächsten Stadt, um den nächsten potenziell \ntödlichen Auftrag in Augenschein zu nehmen.(ENDING) "); // Ende (erstes) bist nicht gestorben :)
-            return;
+            return; // damit man nicht mehr weiter kommt
         } else if (entscheidung1.equals("Ja")) { //nur wenn man ja sagt kommt man weiter
 
         } else {
