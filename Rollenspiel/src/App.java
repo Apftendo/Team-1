@@ -26,7 +26,7 @@ public class App {
         
 
         System.out.println(
-                "Du befindest dich in einer Schenke in der Stadt Grimmdal, vor wenigen Augenblicken hast du eine anfrage angenommen eine alte Ruine und Höhle zu erkunden. Bevor du aber weiter Infos erhältst, musst du jedoch eine Extraklausel unterschreiben, die aussagt das der Auftraggeber im Falle von Verletzungen und oder Tod keine Verantwortung übernimmt. Willst du Unterschreiben? (Q) (Ja oder Nein) ");
+                "Du befindest dich in einer Schenke in der Stadt Grimmdal, vor wenigen Augenblicken hast du eine anfrage angenommen eine alte Ruine und Höhle zu erkunden.\nBevor du aber weiter Infos erhältst, musst du jedoch eine Extraklausel unterschreiben, die aussagt das der Auftraggeber im Falle von Verletzungen und oder Tod keine Verantwortung übernimmt.\nWillst du Unterschreiben? (Q) (Ja oder Nein) ");
 
         String entscheidung1 = scanner.nextLine();
 
@@ -181,7 +181,7 @@ public class App {
             System.out.println("");
             System.out.println("");
             System.out.println("");
-            System.out.println("Hältst du auf die Lichter zu?(Q)");
+            System.out.println("Hältst du auf die Lichter zu?(Q) (Ja oder Nein)");
 
         } else {
             System.out.println("Entscheid dich bitte für Ja oder Nein.");
@@ -351,7 +351,7 @@ public class App {
 
          if (entscheidung8.equals("V")) {
             System.out.println("Du gehst vorsichtig weiter");
-            System.out.println("Du gehst vorsichtig weiter und ignorierst das Geräusch.\nwährend du dich auf den weg konzentrierst, kommt von hinten eine Lore aus einem der Seitengänge und biegt auf die Schienen, auf denen du gerade gehst ein.\nBevor du dich entscheiden kannst schleudert dich die Lore mit voller Kraft gegen die Wand am anderen Ende des Raumes und bricht dir das Rückardt,\nsodass du selbst wenn du die Chance gehabt hättest dich nicht mehr retten kannst und zur Gesellschaft des letzten Opferst wirst.");
+            System.out.println("Du gehst vorsichtig weiter und ignorierst das Geräusch.\nWährend du dich auf den weg konzentrierst, kommt von hinten eine Lore aus einem der Seitengänge und biegt auf die Schienen, auf denen du gerade gehst ein.\nBevor du dich entscheiden kannst schleudert dich die Lore mit voller Kraft gegen die Wand am anderen Ende des Raumes und bricht dir das Rückardt,\nsodass du selbst wenn du die Chance gehabt hättest dich nicht mehr retten kannst und zur Gesellschaft des letzten Opferst wirst.");
             System.out.println("Dead");
             return;
          }
