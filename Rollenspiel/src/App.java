@@ -406,6 +406,7 @@ public class App {
             System.out.println("Du entdeckst das Monster, eine Gorgone, Geköpft in einer Ecke liegen und die Tür, die in die Gitter eingebaut wurde,\nist zwar geschlossen aber die schätze sind nicht mehr vorhanden jemand anderes war wohl schneller als du.");
             scanner.nextLine();
             System.out.println("Enttäuscht, halbtot und ohne auch nur einen Cent vom Schatz verlässt du die Mine und kehrst zurück nach Grimmdal\num wenigstens die Belohnung des Auftrages entgegen zu nehmen.(Ende)");
+            scanner.close();
             return;
         }
         boolean letzterkampf=false;
