@@ -201,23 +201,50 @@ class Main {
 ### *Schleifen*
 - Schleifen wiederholen einen **Anweisungs-Block** (*Schleifenrumpf bzw. Schleifenkörper*) solange die **Schleifenbedingung** gültig bleibt bzw. keine *Abbruchbedingung* erfüllt ist.
 #### for
-![Beispiel-for-Schleife](https://im.contentlounge.net/styles/manual_crop/s3/for-schleifen-programmieren_b8646ae2.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=b45abf47f93971c3bea168a495e2e24eddd7d3fb603bb49ba246117bebd11f4d)
-[Bildquelle](https://im.contentlounge.net/styles/manual_crop/s3/for-schleifen-programmieren_b8646ae2.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=b45abf47f93971c3bea168a495e2e24eddd7d3fb603bb49ba246117bebd11f4d)
+```Java
+class Main {
+  public static void man(String[] args) {
+    for(int x = 1; x <= %; x++) {
+      System.out.println(x);
+    }
+  }
+}
+```
+[Quelle](https://im.contentlounge.net/styles/manual_crop/s3/for-schleifen-programmieren_b8646ae2.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=b45abf47f93971c3bea168a495e2e24eddd7d3fb603bb49ba246117bebd11f4d)
 
 - Im oberen Bild erkennt man ein *Beispiel* für eine **for-Schleife**. Die **Syntax** lautet: **"for (initialization; condition; increment/decrement) {"**. In diesem Fall ist die **initialization** (*Initialiserung*) **int x = 1**, die **condition** (*Bedingung*) **x <= 5** und das **increment/decrement** (*Inkrement/Dekrement*) **x++**. Also wenn bei der **Variable x = 1 x <= 5** gilt (*also wenn x 5 oder kleiner ist*), wird **x** um **1** erhöht und dann ausgegeben. In diesem Falle würden also die Zahlen *1, 2, 3, 4 und 5* nacheinander ausgegeben werden.
 
 [Textquelle](https://praxistipps.chip.de/java-programmieren-lernen-bedingungen-und-schleifen_97989)
 #### while
-![Beispiel-while-Schleife](https://im.contentlounge.net/styles/manual_crop/s3/die-while-schleife_823b40a3.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=23b918b93db6d90236f7182b0c98dd987e4bb65c814e087f8695e81ef770a26e)
-[Bildquelle](https://im.contentlounge.net/styles/manual_crop/s3/die-while-schleife_823b40a3.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=23b918b93db6d90236f7182b0c98dd987e4bb65c814e087f8695e81ef770a26e)
+```Java
+class Main {
+  public static void man(String[] args) {
+    int x =3;
+    while (x > 0) {
+    System.out.println(x)
+    }
+  }
+}
+```
+[Quelle](https://im.contentlounge.net/styles/manual_crop/s3/die-while-schleife_823b40a3.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=23b918b93db6d90236f7182b0c98dd987e4bb65c814e087f8695e81ef770a26e)
 
 - Im oberen Bild sieht man ein *Beispiel* für eine **while-Schleife**. Um diese in den **Quellcode** einzubauen, schreibt man zunächst **"while (...) {"**. In die *runde Klammer* kommt eine **Bedingung** und in die *geschweifte Klammer* kommt wieder der Befehl, der ausgeführt werden soll. In diesem *Beispiel* wird vor der **Schleife** die **Variable x** als **3 initialisert**. Die **Bedingung** lautet **"x > 0"** und wenn dies zutrifft, dann wird zunächst **"x"** ausgegeben und dann wird **"x"** um **1 verringert**. Also würden hier die **Werte 3, 2 und 1** nacheinander ausgegeben werden. Falls die **Bedingung** nicht zutreffen sollte, so führt das *Programm* die Befehle aus, die nach der **Schleife** stehen.
 
 [Textquelle](https://praxistipps.chip.de/java-programmieren-lernen-bedingungen-und-schleifen_97989)
 
 #### do-while
-![Beisipel-do-while-Schleife](https://im.contentlounge.net/styles/manual_crop/s3/java-do-while-schleifen_e8ee10be.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=1cbfb757f755d72c20c96ff4ddbe8a1a90dc13a2a51f09fd847e3ae6373467c1)
-[Bildquelle](https://im.contentlounge.net/styles/manual_crop/s3/java-do-while-schleifen_e8ee10be.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=1cbfb757f755d72c20c96ff4ddbe8a1a90dc13a2a51f09fd847e3ae6373467c1)
+```Java
+class Main {
+  public static void man(String[] args) {
+    int x = 1;
+    do{
+      System.out.println("Hallo");
+      x++;
+    }while (x < 5);
+  }
+}
+```
+[Quelle](https://im.contentlounge.net/styles/manual_crop/s3/java-do-while-schleifen_e8ee10be.png?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=1cbfb757f755d72c20c96ff4ddbe8a1a90dc13a2a51f09fd847e3ae6373467c1)
 
 - Im oberen Bild sieht man ein *Beispiel* für eine **do-while-Schleife**. Der einzige Unterschied zwischen einer **do-while-Schleife** und einer **while-Schleife** ist, dass bei einer **do-while-Schleife** die Befehle mindestens einmal ausgeführt werden, bevor die **Bedingung** geprüft wird. Man schreibt einfach **"do {"** und danach den Befehl mit einer weiteren *geschweiften Klammer* und danach den **while-Befehl**. In diesem Beispiel wird vor der **Schleife** die **Variable x** als **1** initialisert. In der **Schleife** wird zunächst *"Hallo"* ausgegeben und dann wird die **Variable x** um **1** erhöht und dann wird geprüft, ob **x < 5**. Also wird *4 mal "Hallo"* ausgegeben.
 
