@@ -60,7 +60,7 @@ public class App {
         System.out.println("Auftrages, nach dem die letzte Gruppe die den Auftrag annahm nicht zurückkehrte,");
         System.out.println("zu verhindern.");
         scanner.nextLine();
-        System.out.println("Außerdem sind die Leute Nach dem Zwischenfall mit der Nazarick Gruft vorsichtig was die Erkundung von unbekannten Ruinen angeht.");
+        System.out.println("Außerdem sind die Leute nach dem Zwischenfall mit der Nazarick Gruft vorsichtig was die Erkundung von unbekannten Ruinen angeht.");
         System.out.println("Sie überreicht dir einen Stapel verschiedener Papiere.");
         scanner.nextLine();
         System.out.println("\"Das sind die gerade genannten Infos plus eine Karte um");
@@ -405,6 +405,7 @@ public class App {
             System.out.println("Du entdeckst das Monster, eine Gorgone, Geköpft in einer Ecke liegen und die Tür, die in die Gitter eingebaut wurde,\nist zwar geschlossen aber die schätze sind nicht mehr vorhanden jemand anderes war wohl schneller als du.");
             scanner.nextLine();
             System.out.println("Enttäuscht, halbtot und ohne auch nur einen Cent vom Schatz verlässt du die Mine und kehrst zurück nach Grimmdal\num wenigstens die Belohnung des Auftrages entgegen zu nehmen.(Ende)");
+            scanner.close();
             return;
         }
         boolean letzterkampf=false;
