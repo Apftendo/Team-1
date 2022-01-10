@@ -9,7 +9,7 @@ public class App {
 
         System.out.println("Willkommen in unserem Spiel. (drück Enter)");
         scanner.nextLine();
-        System.out.println("Wie du  siehst musst du du die Enter Taste drücken um weitere Zeilen zu bekommen. (drück Enter)");          // kurze einführung ins Spiel und grundlegende Regeln
+        System.out.println("Wie du siehst musst du du die Enter Taste drücken um weitere Zeilen zu bekommen. (drück Enter)");          // kurze einführung ins Spiel und grundlegende Regeln
         scanner.nextLine();
         System.out.println("Das musst du meistens drücken, es sei den ein Q steht am Ende.\nDann musst du etwas eingeben das in einer Klammer davor stand. Und genauso, nicht anders!");
         scanner.nextLine();
