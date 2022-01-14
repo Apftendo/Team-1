@@ -26,7 +26,7 @@ public class App {
         
 
         System.out.println(
-                "Du befindest dich in einer Schenke in der Stadt Grimmdal, vor wenigen Augenblicken hast du eine anfrage angenommen eine alte Ruine und Höhle zu erkunden.\nBevor du aber weiter Infos erhältst, musst du jedoch eine Extraklausel unterschreiben, die aussagt das der Auftraggeber im Falle von Verletzungen und oder Tod keine Verantwortung übernimmt.\nWillst du Unterschreiben? (Q) (Ja oder Nein) ");
+                "Du befindest dich in einer Schenke in der Stadt Grimmdal, vor wenigen Augenblicken hast du eine Anfrage bekommen eine alte Ruine und Höhle zu erkunden.\nBevor du aber weiter Infos erhältst, musst du jedoch eine Extraklausel unterschreiben, die aussagt, dass der Auftraggeber im Falle von Verletzungen und oder dem Tod keine Verantwortung übernimmt.\nWillst du Unterschreiben? (Q) (Ja oder Nein) ");
 
         String entscheidung1 = scanner.nextLine();
 
@@ -53,21 +53,21 @@ public class App {
         scanner.nextLine();
         System.out.println("");
         System.out.println(
-                "Die gefragten Ruinen befinden sich von hier aus ungefähr 6 Meilen westlich von\nhier. Sie ist trotz der geringen Entfernung erst Anfang des Jahres entdeckt\nworden, da sie sich in einem Tal befindet, das vorher unerreichbar war und\ndurch einen Erdrutsch, das durch das letzte Erdbeben verursacht wurde, zugänglich ist.");
+                "Die gefragten Ruinen befinden sich von hier aus ungefähr 6 Meilen westlich\nhier. Sie sind trotz der geringen Entfernung erst Anfang des Jahres entdeckt\nworden, da sie sich in einem Tal befindet, das vorher unerreichbar war und erst\ndurch einen Erdrutsch, das durch das letzte Erdbeben verursacht wurde, zugänglich ist.");
                 scanner.nextLine();
         System.out.println("Die Ruinen sind größtenteils unterirdisch, nimm also eine Lichtquelle mit.");
         System.out.println("Was dir vielleicht auch schon aufgefallen ist, ist die astronomische Höhe der");
-        System.out.println("Belohnung und die ungewöhnliche Extraklausel, der Auftraggeber ist ein Adeliger");
+        System.out.println("Belohnung und die ungewöhnliche Extraklausel, der Auftraggeber ist ein Adeliger,");
         System.out.println("dessen Neugierde und Geldgier wohl groß genug sind um ein zurückziehen des");
         System.out.println("Auftrages, nach dem die letzte Gruppe die den Auftrag annahm nicht zurückkehrte,");
         System.out.println("zu verhindern.");
         scanner.nextLine();
         System.out.println("Außerdem sind die Leute nach dem Zwischenfall mit der Nazarick Gruft vorsichtig was die Erkundung von unbekannten Ruinen angeht.");
-        System.out.println("Sie überreicht dir einen Stapel verschiedener Papiere.");
+        System.out.println("Die Frau überreicht dir einen Stapel verschiedener Papiere.");
         scanner.nextLine();
         System.out.println("\"Das sind die gerade genannten Infos plus eine Karte um");
         System.out.println("dorthin zu finden, eine für die überirdische Umgebung haben wir nicht.");
-        System.out.println("Wir konnten nach der Entdeckung leider keinen Kartographen finden der bereit wäre");
+        System.out.println("Wir konnten nach der Entdeckung leider keinen Kartographen finden der bereit ist");
         System.out.println("dort hinzugehen, und eine Karte zu zeichnen.");
         System.out.println("");
         scanner.nextLine();
@@ -88,7 +88,7 @@ public class App {
         System.out.println("");
         System.out.println("Du ruhst dich nicht aus und gehst Proviant kaufen. (3)");
         System.out.println("");
-        System.out.println("Wofür entscheidest du dich? (Q)  Diese Entscheidungen bestimmen über den weiterenverlauf des Spiels.");
+        System.out.println("Wofür entscheidest du dich? (Q)  Diese Entscheidungen bestimmen über den Weiterenverlauf des Spiels.");
 
         String entscheidung2 = scanner.nextLine();
         boolean blau = false;
@@ -96,11 +96,11 @@ public class App {
         boolean lila = false;
         if (entscheidung2.equals("1")) {
             System.out.println("In der Entfernung kannst du wage die Umrisse der Ruine");
-            System.out.println("ausmachen und die verlassene Siedlung vor Ihr. Die ganze Umgebung im Tal ist in");
+            System.out.println("ausmachen und die verlassene Siedlung vor ihr. Die ganze Umgebung im Tal ist in");
             System.out.println("einen leichten Schleier aus Nebel gehüllt, er ist nicht sonderlich dicht und du");
             System.out.println("kannst von deiner erhobenen Position zumindest die Umrisse von allem erkennen.");
             scanner.nextLine();
-            System.out.println("Das Gebiet vor dir ist ein Sumpfartiges Nass Land, welches sich über das halbe Tal");
+            System.out.println("Das Gebiet vor dir ist ein sumpfartiges Nassland, welches sich über das halbe Tal");
             System.out.println("erstreckt, Glücklicherweise sind noch Überreste von Wegweisern übrig die von");
             System.out.println("den vorherigen Bewohnern aufgestellt wurden, um zu vermeiden das Reisende, die");
             System.out.println("diese Ansiedelung besuchten vom Weg abkamen und ertranken.");
@@ -108,7 +108,7 @@ public class App {
             System.out.println("");                                                                                                 //jede Entscheidung bekommt ein boolean der abgefragt wird und je nachdem ein bestimmtes Ereignis hervorruft
             System.out.println("");
             System.out.println("");
-            System.out.println(" Der Wegweiser, den du entdeckt hast, sieht aus als wäre er");
+            System.out.println("Der erste Wegweiser, den du entdeckt hast, sieht aus als wäre er");
             System.out.println("von jemandem bewegt worden, um die Richtung besser zu erkennen in die man gehen muss.");
             scanner.nextLine();
             System.out.println("");
@@ -121,13 +121,13 @@ public class App {
             scanner.nextLine();
             System.out.println("");
             System.out.println("In der Entfernung kannst du wage die Umrisse der Ruine");
-            System.out.println("ausmachen und die verlassene Siedlung vor Ihr. Die ganze Umgebung im Tal ist in");
+            System.out.println("ausmachen und die verlassene Siedlung vor ihr. Die ganze Umgebung im Tal ist in");
             System.out.println("einen leichten Schleier aus Nebel gehüllt, er ist nicht sonderlich dicht und du");
             System.out.println("kannst von deiner erhobenen Position zumindest die Umrisse von allem erkennen.");
             scanner.nextLine();
-            System.out.println("Das Gebiet vor dir ist ein Sumpfartiges Nass Land welches sich über das halbe Tal");
+            System.out.println("Das Gebiet vor dir ist ein sumpfartiges Nassland welches sich über das halbe Tal");
             System.out.println("erstreckt, Glücklicherweise sind noch Überreste von Wegweisern übrig die von");
-            System.out.println("den vorherigen Bewohnern aufgestellt wurden um zu vermeiden das Reisende die");
+            System.out.println("den vorherigen Bewohnern aufgestellt wurden um zu vermeiden das Reisende, die");
             System.out.println("diese Ansiedelung besuchten vom Weg abkamen und ertranken.");
             scanner.nextLine();
             System.out.println("Du kannst jedoch die angegebene Richtung durch den Dreck auf dem Schild nicht richtig");
@@ -138,13 +138,13 @@ public class App {
             gelb = true;        // diese Entscheidung gibt nur gelbe und standart Texte zurück
         } else if (entscheidung2.equals("3")) {
             System.out.println("In der Entfernung kannst du wage die Umrisse der Ruine");
-            System.out.println("ausmachen und die verlassene Siedlung vor Ihr. Die ganze Umgebung im Tal ist in");
+            System.out.println("ausmachen und die verlassene Siedlung vor ihr. Die ganze Umgebung im Tal ist in");
             System.out.println("einen leichten Schleier aus Nebel gehüllt, er ist nicht sonderlich dicht und du");
             System.out.println("kannst von deiner erhobenen Position zumindest die Umrisse von allem erkennen.");
             scanner.nextLine();
             System.out.println("Das Gebiet vor dir ist ein Sumpfartiges Nass Land welches sich über das halbe Tal");
             System.out.println("erstreckt, Glücklicherweise sind noch Überreste von Wegweisern übrig die von");
-            System.out.println("den vorherigen Bewohnern aufgestellt wurden um zu vermeiden das Reisende die");
+            System.out.println("den vorherigen Bewohnern aufgestellt wurden um zu vermeiden das Reisende, die");
             System.out.println("diese Ansiedelung besuchten vom Weg abkamen und ertranken.");
             scanner.nextLine();
             System.out.println("");
@@ -168,7 +168,7 @@ public class App {
 
         if (entscheidung3.equals("Ja")) {
             System.out.println("Ja:");
-            System.out.println("Du folgst dem Wegweiser und gehst in das Moorige Gebiet, nach einer weile kannst du");
+            System.out.println("Du folgst dem Wegweiser und gehst in das Moorige Gebiet, nach einer Weile kannst du");
             System.out.println("den nächsten Wegweiser ausmachen und gehst auf ihn zu. Das Schild des letzten");
             System.out.println("ist im Nebel verschwunden, eine Umkehr wäre jetzt gefährlicher als weiterzugehen.");
         } else if (entscheidung3.equals("Nein")) {
@@ -176,9 +176,9 @@ public class App {
             System.out.println("");
             System.out.println(
                     "Du drehst dich um und willst wieder hinauf zum Eingang gehen, jedoch hat sich der Nebel so");
-            System.out.println("verdichtet das du nicht mehr ausmachen kannst auf welchem weg du gekommen bist.");
+            System.out.println("verdichtet das du nicht mehr ausmachen kannst auf welchem Weg du gekommen bist.");
             scanner.nextLine();
-            System.out.println("Also gehst du in die Richtung aus der du denkst aus der du gekommen bist gekommen bist.\nNach einer Weile ziellosen Herumlaufens, sind in der Entfernung lichter auszumachen.");
+            System.out.println("Also gehst du in die Richtung aus der du denkst aus der du gekommen bist gekommen bist.\nNach einer Weile ziellosen Herumlaufens, sind in der Entfernung Lichter auszumachen.");
             System.out.println("");
             System.out.println("");
             System.out.println("");
@@ -200,7 +200,7 @@ public class App {
             scanner.nextLine();
             System.out.println("Du gehst weiter auf die Lichter zu. Der Boden unter dir wird");
             System.out.println("weicher, aber dir fällt das schon nicht mehr auf. Du gehst hoffnungsvoll weiter");
-            System.out.println("auf die lichter zu. Vielleicht ist es ja jemand anderes der auch");
+            System.out.println("auf die Lichter zu. Vielleicht ist es ja jemand anderes der auch");
             System.out.println("denselben Auftrag angenommen hat, vielleicht sind es Bewohner die sich nach der");
             System.out.println("Zerstörung hierhin zurückgezogen, und irgendwie überlebt haben.");
             scanner.nextLine();
@@ -210,15 +210,15 @@ public class App {
             System.out.println("Oberfläche erreichst und dich an Land ziehen kannst, jedoch wirst du plötzlich mit");       // schlechte Entscheidung, ester möglicher tot im Spiel
             System.out.println("einem starken ruck nach unten gerissen, du spürst das es eine Hand ist die dich");
             System.out.println("runter zieht, dann eine zweite und eine dritte. In dem trüben Wasser kannst du");
-            System.out.println("sie erkennen,kalte, kalkweiße fast schon skelettartige Gestalten.");
+            System.out.println("sie erkennen, kalte, kalkweiße fast schon skelettartige Gestalten.");
             scanner.nextLine();
             System.out.println("Erbarmungslos ziehen sie dich hinab, und während dein Kämpfen nach Luft und der Oberfläche");
             System.out.println("immer schwächer wird und schließlich aufhört, fallen dir Geschichten aus deiner");
-            System.out.println("Kindheit wieder ein. Geschichten die dir von deinen Eltern und Großeltern");
+            System.out.println("Kindheit wieder ein. Geschichten, die dir von deinen Eltern und Großeltern");
             System.out.println("erzählt wurden, Geschichten von Irrlichtern die in Mooren von den Ertrunkenen");
             System.out.println("geschaffen werden um andere unwissende Wanderer in ihr nasses Grab zu ziehen.");
             System.out.println("Du dachtest sie seien ein Mythos und hast diese Geschichten eigentlich schon längst");
-            System.out.println("vergessen, viel zu spät erst realisiertes du das sie es doch nicht waren…(DEAD)");
+            System.out.println("vergessen, viel zu spät erst realisiertes du, dass sie es doch nicht waren…(DEAD)");
             scanner.close();
             return;
         } else if (entscheidung4.equals("Nein")) {
@@ -227,7 +227,7 @@ public class App {
             System.out.println("");
             System.out.println("Du gehst nicht auf die Lichter zu, Geschichten aus deiner");
             System.out.println("Kindheit von deinen Eltern und Großeltern warnen dich den Irrlichtern nicht zu");
-            System.out.println("folgen. Du wanderst noch eine weile durch den Nebel und erreichst fast wie durch");
+            System.out.println("folgen. Du wanderst noch eine Weile durch den Nebel und erreichst fast wie durch");
             System.out.println("ein Wunder den zweiten Wegweiser sodass du dem vorgegebenen Weg weiter folgen kannst.");
             
         }
@@ -237,22 +237,22 @@ public class App {
         System.out.println("");
         System.out.println("In welcher Richtung der Ausgang liegt weißt du schon längst nicht mehr.");
         System.out.println("Nach einiger Zeit erreichst du den Rand des Dorfes und hältst");
-        System.out.println("weiter auf die Festung zu, als du sie jedoch erreichst stellst du fest das es");     
+        System.out.println("weiter auf die Festung zu, als du sie jedoch erreichst stellst du fest, dass es");     
         System.out.println("sich nicht um eine Festung handelt sondern um eine sehr gut Befestigte Mine,");
         System.out.println("welche wohl mal das Haupteinkommensmittel des Dorfes war.");
-        System.out.println("Du betrittst die mine und Beginnst deinen abstieg.");
+        System.out.println("Du betrittst die Mine und beginnst deinen Abstieg.");
         scanner.nextLine();
 
         if (blau == true) {
-            System.out.println("Das erste was dir schon nach wenigen metern auffällt ist das der Gang ausgeleuchtet ist.\nAn den Wänden befinden sich fakeln. Der bisher geradlinige weg spaltet sich in zwei gänge, aus dem rechten kommt ein leichtes blaues Leuchten,\naus dem linken hört man das leichte plätschern von Wasser.(Q)");
+            System.out.println("Das erste was dir schon nach wenigen Metern auffällt ist das der Gang ausgeleuchtet ist.\nAn den Wänden befinden sich Fakeln. Der bisher geradlinige Weg spaltet sich in zwei Gänge, aus dem rechten kommt ein leichtes blaues Leuchten,\naus dem linken hört man das leichte plätschern von Wasser.(Q)");
             System.out.println("Gehst du links oder rechts? (Q) (Links oder Rechts)");
         }
 
         else if (gelb == true) {
-            System.out.println("Der bisher geradlinige weg spaltet sich in zwei gänge,\naus dem rechten kommt ein leichtes blaues Leuchten, aus dem linken hört man das leichte plätschern von Wasser.\nGehst du links oder rechts?(Q) (Links oder Rechts)");                                                                                                               // hier werden die booleans zum erstenmal abgefragt
+            System.out.println("Der bisher geradlinige Weg spaltet sich in zwei Gänge,\naus dem rechten kommt ein leichtes blaues Leuchten, aus dem linken hört man das leichte plätschern von Wasser.\nGehst du links oder rechts?(Q) (Links oder Rechts)");                                                                                                               // hier werden die booleans zum erstenmal abgefragt
         }
         else if (lila == true) {
-            System.out.println("Das erste was dir schon nach wenigen metern auffällt ist das der Gang ausgeleuchtet ist, an den wänden befinden sich fakeln.\nDer bisher geradlinige weg spaltet sich in zwei gänge, aus dem rechten kommt ein leichtes blaues Leuchten, aus dem linken hört man das leichte plätschern von Wasser.\nGehst du links oder rechts?(Q) (Links Rechts)");
+            System.out.println("Das erste was dir schon nach wenigen Metern auffällt ist, dass der Gang ausgeleuchtet ist, an den Wänden befinden sich Fakeln.\nDer bisher geradlinige Weg spaltet sich in zwei Gänge, aus dem rechten kommt ein leichtes blaues Leuchten, aus dem linken hört man das leichte plätschern von Wasser.\nGehst du links oder rechts?(Q) (Links Rechts)");
         }
         else {
             scanner.close();
@@ -262,12 +262,12 @@ public class App {
 
         if (entscheidung5.equals("Links")) {
             System.out.println("Links:");
-            System.out.println("Du gehst den Linken Gang entlang entlang und erreichst eine Kammer mit einem Teich in der Mitte, als du dich dem Teich näherst kanst du einen Schlüssel am Grund erkennen.\nDa der Teich nicht sonderlich tief ist könntest du ihn mit der Hand herrausnehmen.");  
+            System.out.println("Du gehst den linken Gang entlang und erreichst eine Kammer mit einem Teich in der Mitte, als du dich dem Teich näherst kanst du einen Schlüssel am Grund erkennen.\nDa der Teich nicht sonderlich tief ist könntest du ihn mit der Hand herrausnehmen.");  
             System.out.println("Willst du hineingreifen und den Schlüssel (Schlüssel) herausholen oder dich weiter umsehen (Umsehen)?(Q)");
         }
         else if (entscheidung5.equals("Rechts")) {
             System.out.println("Rechts:");
-            System.out.println("Du gehst den rechten Gang entlang und entdeckst eine Kammer mit biolumineszierenden riesigen Pilzen.\nDu findest eine Wasserquelle und siehst ein parr Kleintiere die sich gerade an den Pilzen ernähren, sie scheinen also essbar zu sein.");
+            System.out.println("Du gehst den rechten Gang entlang und entdeckst eine Kammer mit biolumineszierenden riesigen Pilzen.\nDu findest eine Wasserquelle und siehst ein paar Kleintiere die sich gerade an den Pilzen ernähren, sie scheinen also essbar zu sein.");
             System.out.println("Es sieht aus wie der perfeckte Ort um ein Lager aufzuschlagen, möchtest du dies tun?(Q) (Ja) oder (Nein)");
         }
         else {
@@ -281,7 +281,7 @@ public class App {
         String entscheidung6z = "hahhaha"; // damit jemand einen String überschreiben kann musste der String erst erstellt werden
         
         if (entscheidung5.equals("Links") && (entscheidung6.equals("Schlüssel"))) {
-            System.out.println("Du springst in das hüfthohe Wasser hinein, wie du jedoch schnell merkst ist die flüssigkeit im Teich kein Wasser.\nEs ist eine hochgradige Lauge die von einem schleim ausgeschieden wird\nder dich jetzt and den Füßen fesselt sodass es kein entkommen mehr vor einem bad in der Lauge gibt. (Dead)");  
+            System.out.println("Du springst in das hüfthohe Wasser hinein, wie du jedoch schnell merkst ist die Flüssigkeit im Teich kein Wasser.\nEs ist eine hochgradige Lauge die von einem Schleim ausgeschieden wird\nder dich jetzt an den Füßen fesselt, sodass es kein entkommen mehr vor einem Bad in der Lauge gibt. (Dead)");  
             scanner.close();
             return;
         }
@@ -294,14 +294,14 @@ public class App {
             System.out.println("");
             scanner.nextLine();
             System.out.println("Was passierte:");
-            System.out.println("Falls dies jemals irgendjemand findet, hoffe ich Antworten auf Wenigstens ein paar der Fragen zu haben die man sich vielleicht stellt, wenn man sich unsere zerstörte Siedlung ansieht.\nNachdem die Gorgone das Dorf angriff und die Einwohner entweder versteinerte, tötete oder zum Ertrinken in Richtung Moor jagte, fing sie an alle möglichen Reichtümer, die man im ganzen Dorf finden konnte zusammenzusammeln und im tiefsten Teil der Mine zu verstauen.\nIch selbst entkam ihr nur knapp und erlitt eine tödliche Wunde, die mich wohl sehr bald dahinraffen wird.\nDa ich also sowieso bald sterben werde kann ich auch meine Vermutung äußern, ich glaube das die Gorgone vom alleinigen Herrscher und Overlord Ainz ooal gown geschickt wurde.\nWahrscheinlich ist unser Minendorf zu schnell zu unabhängig geworden.\nWas wohl der Grund wahr warum er uns ausgelöscht hat.\nWie traurig das wir ihm nicht mahl genug wert waren damit er selber kommt, um uns zu vernichten...");
+            System.out.println("Falls dies jemals irgendjemand findet, hoffe ich Antworten auf wenigstens ein paar der Fragen zu haben, die man sich vielleicht stellt, wenn man sich unsere zerstörte Siedlung ansieht.\nNachdem die Gorgone das Dorf angriffen und die Einwohner entweder versteinerte, getötete oder zum Ertrinken in Richtung Moor jagten, fing sie an alle möglichen Reichtümer, die man im ganzen Dorf finden konnte zusammen zusammeln und im tiefsten Teil der Mine zu verstauen.\nIch selbst entkam ihnen nur knapp und erlitt eine tödliche Wunde, die mich wohl sehr bald dahinraffen wird.\nDa ich also sowieso bald sterben werde kann ich auch meine Vermutung äußern, ich glaube, dass die Gorgone vom alleinigen Herrscher und Overlord Ainz Ooal Gown geschickt wurde.\nWahrscheinlich ist unser Minendorf zu schnell zu unabhängig geworden.\nWas wohl der Grund wahr warum er uns auslöscht .\nWie traurig, dass wir ihm nicht mahl genug Wert waren damit er selber kommt, um uns zu vernichten...");
             System.out.println("");
             scanner.nextLine();
-            System.out.println("Nachdem du diesen Eintrag gelesen hast und dir nun bewusst bist was am Ende auf dich wartet kehrst du um und nimmst den rechten Pfad.");  
+            System.out.println("Nachdem du diesen Eintrag gelesen hast und dir nun bewusst bist, was am Ende auf dich wartet kehrst du um und nimmst den rechten Pfad.");  
         }
 
         if (notiz == true) {
-            System.out.println("Du gehst den rechten Gang entlang und entdeckst eine Kammer mit biolumineszierenden riesigen Pilzen.\nDu findest eine Wasserquelle und siehst ein parr Kleintiere die sich gerade an den Pilzen ernähren, sie scheinen also essbar zu sein.");
+            System.out.println("Du gehst den rechten Gang entlang und entdeckst eine Kammer mit biolumineszierenden riesigen Pilzen.\nDu findest eine Wasserquelle und siehst ein paar Kleintiere, die sich gerade an den Pilzen ernähren, sie scheinen also essbar zu sein.");
             System.out.println("Es sieht aus wie der perfeckte Ort um ein Lager aufzuschlagen, möchtest du dies tun?(Q) (Ja) oder (Nein)");
             entscheidung6z = scanner.nextLine();
         }
@@ -313,13 +313,13 @@ public class App {
        
        
         if (lagerfeuer==true && (lila==true)) {             // heir werden zwei bedingungen gleichzeitig abgefragt
-            System.out.println("Nachdem du dein Lager aufgeschlagen hast und dich hinlegst, fällst du nach wenigen Augenblicken in einen tiefen Schlaf.\nAls du nach einiger Zeit wieder erwachst und nach dem Beutel mit Proviant suchst findest du ihn von wurzeln bedeckt unter dem größten Pilz liegen,\nanscheinend haben dich die suchenden Wurzeln der Pilze durch den Beutel nicht entdeckt, was dir das Leben gerettet hat.");   
+            System.out.println("Nachdem du dein Lager aufgeschlagen hast und dich hinlegst, fällst du nach wenigen Augenblicken in einen tiefen Schlaf.\nAls du nach einiger Zeit wieder erwachst und  den Beutel mit dem Proviant suchst findest du ihn von wurzeln bedeckt unter dem größten Pilz liegen,\nanscheinend haben dich die suchenden Wurzeln der Pilze durch den Beutel nicht entdeckt, was dir das Leben gerettet hat.");   
         }
         else if (lagerfeuer==true && (blau==true)) {
             System.out.println("Nachdem du dein Lager aufgeschlagen hast und dich hinlegst, fällst du in einen leichten Schlaf.\nZu deinem Glück, denn so bemerkst du die dich einwickelnden Wurzeln noch rechtzeitig und kannst entkommen.");
         }
         else if (lagerfeuer==true && (gelb==true)) {
-            System.out.println("Nachdem du dein Lager aufgeschlagen hast und dich hinlegst, fällst du nach wenigen Augenblicken in einen tiefen Schlaf.\nDa du aber ohne dich auszuruhen aufgebrochen bist merkst du erst viel zu spät das dich die Wurzeln der umliegenden Pilze eingewickelt und immobilisiert haben.\nDie Wurzeln haben sich schon so stark um dich gewickelt das dein Schicksal als Nährstoff für die umliegenden Organismen besiegelt ist.");
+            System.out.println("Nachdem du dein Lager aufgeschlagen hast und dich hinlegst, fällst du nach wenigen Augenblicken in einen tiefen Schlaf.\nDa du aber ohne dich auszuruhen aufgebrochen bist merkst du erst viel zu spät das dich die Wurzeln der umliegenden Pilze eingewickelt und immobilisiert haben.\nDie Wurzeln haben sich schon so stark um dich gewickelt, dass dein Schicksal als Nährstoff für die umliegenden Organismen besiegelt ist.");
             scanner.close();
             return;
         }
@@ -328,9 +328,9 @@ public class App {
         scanner.nextLine();
         System.out.println("Der Linke Gang ist komplett dunkle und mit nur noch halb vorhandenen Barrikaden verschlossen.(Links)");
         System.out.println("");
-        System.out.println("Aus dem mittleren Gang kommt ein schwacher Fauler verwesender Geruch.(Mitte)");
+        System.out.println("Aus dem mittleren Gang kommt ein schwacher fauler, verwesender Geruch.(Mitte)");
         System.out.println("");
-        System.out.println("Vom rechten Gang kommt ein leichter Luftzug und es wird ein wenig kühler als er dich berührt.(Rechts)");
+        System.out.println("Aus dem rechten Gang kommt ein leichter Luftzug und es wird ein wenig kühler als er dich berührt.(Rechts)");
         System.out.println("");
         System.out.println("Welchen Gang nimmst du? (Q)");
 
@@ -345,13 +345,13 @@ public class App {
         }
         else if (entscheidung7.equals("Rechts")) {
             System.out.println("Rechts:");
-            System.out.println("Du folgst der Frischluft und nimmst den rechten Gang.\nEr ist dunkel und du musst dich an der Wand entlangtasten, schließlich ertastest du einen Schalter und ziehst eilig an ihm.\nSobald der Hebel umgelegt wurde, öffnet sich eine Tür in der Wand und lässt blendendes Tageslicht hineinströmen.\nDu verlässt die Miene durch den geheimen Ausgang und gehst weiter deiner Wege, nur ein einziges mahl drehst du dich um und denkst über vielen mahle nach die du in den letzten zwei Tagen fast gestorben wärst,\ndann sendest du ein Dankesgebet gen Himmel und läufst weiter. (schlechtes ende)");
+            System.out.println("Du folgst der Frischluft und nimmst den rechten Gang.\nEr ist dunkel und du musst dich an der Wand entlangtasten, schließlich ertastest du einen Schalter und ziehst eilig an ihm.\nSobald der Hebel umgelegt wurde, öffnet sich eine Tür in der Wand und lässt blendendes Tageslicht hineinströmen.\nDu verlässt die Miene durch den geheimen Ausgang und gehst weiter deiner Wege, nur ein einziges Mal drehst du dich um und denkst über vielen Male nach, die du in den letzten zwei Tagen fast gestorben wärst,\ndann sendest du ein Dankesgebet gen Himmel und läufst weiter. (schlechtes ende)");
             scanner.close();
             return;
         }
         else if (entscheidung7.equals("Mitte")) {
             System.out.println("Mitte");
-            System.out.println("Du betrittst den etwas unangenehm riechenden mittleren Gang und findest auch schnell herauf, warum es so stinkt.\nMan hört die Fliegen eher surren als das man die Leiche sieht, aber am Boden des Raumes vor dir liegt eine Leiche.\nWarum da eine Leiche liegt, kannst du auch schnell erkennen, der Raum ist rechteckig und geht genauso weit in die tiefe,\nwie er hoch ist, ein fall wäre, wie schon vom Vorgänger unten demonstriert, tödlich.\nGefallen ist der Arme Wurm wohl da eine der Morschen Holzplanken der Schienen, über die man laufen muss, um auf die andere Seite zu kommen, durchgebrochen ist als er auf ihr ging.\nZu deinem Glück und seinem Pech war, das wohl die einzige wirklich Zerbrechliche Planke und du kannst, vorsichtig hinüber gehen.");
+            System.out.println("Du betrittst den etwas unangenehm riechenden mittleren Gang und findest auch schnell herauf, warum es so stinkt.\nMan hört die Fliegen eher surren als, dass man die Leiche sieht, die am Boden des Raumes vor dir liegt.\nWarum da eine Leiche liegt, kannst du auch schnell erkennen, der Raum ist rechteckig und geht genauso weit in die Tiefe,\nwie er hoch ist, ein fall wäre, wie schon vom Vorgänger unten demonstriert, tödlich.\nGefallen ist der Arme Wurm wohl, da eine der Morschen Holzplanken der Schienen, über die man laufen muss, um auf die andere Seite zu kommen, durchgebrochen ist als er auf ihr ging.\nZu deinem Glück und seinem Pech war, dass wohl die einzige wirklich zerbrechliche Planke und du kannst, vorsichtig hinüber gehen.");
             System.out.println("Auf halbem Weg hörst du ein leises Rumpeln aus einem der abgehenden Gänge.");
             System.out.println("Was tust du? (Q) Vorsichtig weitergehen(V)  Los rennen (L)  Abwarten(A)");
 
