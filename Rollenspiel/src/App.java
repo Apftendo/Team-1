@@ -33,11 +33,13 @@ public class App {
         if (entscheidung1.equals("Nein")) {
             System.out.println(
                     "Nein:\nDu entscheidest dich den Auftrag doch nicht anzunehmen, verlässt die Schenke \nund gehst weiter deiner Wege. Du erfährst nicht welche Geheimnisse und Schätze \nsich in den Ruinen verbergen und gehst zur nächsten Stadt, um den nächsten potenziell \ntödlichen Auftrag in Augenschein zu nehmen.(ENDING) "); // Ende (erstes) bist nicht gestorben :)
-            return; // damit man nicht mehr weiter kommt
+                scanner.close();
+                return; // damit man nicht mehr weiter kommt
         } else if (entscheidung1.equals("Ja")) { //nur wenn man ja sagt kommt man weiter
 
         } else {
             System.out.println("Sag bitte Ja oder Nein"); // falls man etwas falsches sagt wird man direkt zurück geschickt
+            scanner.close();
             return;
         }
 
@@ -158,6 +160,7 @@ public class App {
             lila = true;            // diese Entscheidung gibt nur lila und standart Texte zurück
         } else {
             System.out.println("Bitte entscheide dich für 1,2 oder 3.");
+            scanner.close();
             return;
         }
 
@@ -184,6 +187,7 @@ public class App {
 
         } else {
             System.out.println("Entscheid dich bitte für Ja oder Nein.");
+            scanner.close();
             return;
         }
 
@@ -215,6 +219,7 @@ public class App {
             System.out.println("geschaffen werden um andere unwissende Wanderer in ihr nasses Grab zu ziehen.");
             System.out.println("Du dachtest sie seien ein Mythos und hast diese Geschichten eigentlich schon längst");
             System.out.println("vergessen, viel zu spät erst realisiertes du das sie es doch nicht waren…(DEAD)");
+            scanner.close();
             return;
         } else if (entscheidung4.equals("Nein")) {
             System.out.println("Nein:");
@@ -250,6 +255,7 @@ public class App {
             System.out.println("Das erste was dir schon nach wenigen metern auffällt ist das der Gang ausgeleuchtet ist, an den wänden befinden sich fakeln.\nDer bisher geradlinige weg spaltet sich in zwei gänge, aus dem rechten kommt ein leichtes blaues Leuchten, aus dem linken hört man das leichte plätschern von Wasser.\nGehst du links oder rechts?(Q) (Links Rechts)");
         }
         else {
+            scanner.close();
             return;
         }
         String entscheidung5 = scanner.nextLine();
@@ -266,6 +272,7 @@ public class App {
         }
         else {
             System.out.println("Sag bitte Links oder Rechts.");
+            scanner.close();
             return;
         }
         
@@ -275,6 +282,7 @@ public class App {
         
         if (entscheidung5.equals("Links") && (entscheidung6.equals("Schlüssel"))) {
             System.out.println("Du springst in das hüfthohe Wasser hinein, wie du jedoch schnell merkst ist die flüssigkeit im Teich kein Wasser.\nEs ist eine hochgradige Lauge die von einem schleim ausgeschieden wird\nder dich jetzt and den Füßen fesselt sodass es kein entkommen mehr vor einem bad in der Lauge gibt. (Dead)");  
+            scanner.close();
             return;
         }
 
@@ -312,6 +320,7 @@ public class App {
         }
         else if (lagerfeuer==true && (gelb==true)) {
             System.out.println("Nachdem du dein Lager aufgeschlagen hast und dich hinlegst, fällst du nach wenigen Augenblicken in einen tiefen Schlaf.\nDa du aber ohne dich auszuruhen aufgebrochen bist merkst du erst viel zu spät das dich die Wurzeln der umliegenden Pilze eingewickelt und immobilisiert haben.\nDie Wurzeln haben sich schon so stark um dich gewickelt das dein Schicksal als Nährstoff für die umliegenden Organismen besiegelt ist.");
+            scanner.close();
             return;
         }
 
@@ -331,11 +340,13 @@ public class App {
             System.out.println("Links:");
             System.out.println("Du betrittst trotz des offensichtlichen Verbarrikadierens den Linken Gang.");
             System.out.println("Nach einiger Zeit bekommst du Kopfschmerzen, dir wird schwindelig und übel, schließlich wirst du bewusstlos und stirbst an einer Kohlenstoffmonoxid Vergiftung.(Dead)");
+            scanner.close();
             return;
         }
         else if (entscheidung7.equals("Rechts")) {
             System.out.println("Rechts:");
             System.out.println("Du folgst der Frischluft und nimmst den rechten Gang.\nEr ist dunkel und du musst dich an der Wand entlangtasten, schließlich ertastest du einen Schalter und ziehst eilig an ihm.\nSobald der Hebel umgelegt wurde, öffnet sich eine Tür in der Wand und lässt blendendes Tageslicht hineinströmen.\nDu verlässt die Miene durch den geheimen Ausgang und gehst weiter deiner Wege, nur ein einziges mahl drehst du dich um und denkst über vielen mahle nach die du in den letzten zwei Tagen fast gestorben wärst,\ndann sendest du ein Dankesgebet gen Himmel und läufst weiter. (schlechtes ende)");
+            scanner.close();
             return;
         }
         else if (entscheidung7.equals("Mitte")) {
@@ -352,12 +363,14 @@ public class App {
             System.out.println("Du gehst vorsichtig weiter.");
             System.out.println("Du gehst vorsichtig weiter und ignorierst das Geräusch.\nWährend du dich auf den weg konzentrierst, kommt von hinten eine Lore aus einem der Seitengänge und biegt auf die Schienen, auf denen du gerade gehst ein.\nBevor du dich entscheiden kannst schleudert dich die Lore mit voller Kraft gegen die Wand am anderen Ende des Raumes und bricht dir das Rückardt,\nsodass du selbst wenn du die Chance gehabt hättest dich nicht mehr retten kannst und zur Gesellschaft des letzten Opferst wirst.");
             System.out.println("Dead");
+            scanner.close();
             return;
          }
          else if (entscheidung8.equals("L")) {
             System.out.println("Du rennst los.");
             System.out.println("Um dem was auch immer da gerade angerauscht komm auszuweichen rennst du los, jedoch hast du die Stabilität der Holzbretter unterschätzt.\nDir bricht bei einem Schritt der Boden unter den Füßen weg und du stürzt in den Tod.");
             System.out.println("Dead");
+            scanner.close();
             return;
          }
          else if (entscheidung8.equals("A")) {
@@ -383,6 +396,7 @@ public class App {
             scanner.nextLine();
             System.out.println("Mit einem kick im Schritt und einem Schatz unterm Arm, der reicht, um eine Familie auf mehrere Generationen zu versorgen, trittst du aus der Mine in den Sonnenschein.\nEs ist kein Nebel mehr zu sehen und du kannst Vögel zwitschern hören.");
             System.out.println("Es ist, als wenn ein Fluch von diesem Ort genommen worden der Mehr als nur die 4 Opfer der vorherigen Gruppe gefordert hatte. (Ende)");
+            scanner.close();
             return;
 
         }
@@ -394,6 +408,7 @@ public class App {
             System.out.println("Du entdeckst das Monster, eine Gorgone, Geköpft in einer Ecke liegen und die Tür, die in die Gitter eingebaut wurde,\nist zwar geschlossen aber die schätze sind nicht mehr vorhanden jemand anderes war wohl schneller als du.");
             scanner.nextLine();
             System.out.println("Enttäuscht, halbtot und ohne auch nur einen Cent vom Schatz verlässt du die Mine und kehrst zurück nach Grimmdal\num wenigstens die Belohnung des Auftrages entgegen zu nehmen. (Ende)");
+            scanner.close();
             return;
 
         }
@@ -412,6 +427,7 @@ public class App {
         String entscheidung9 = "hahhhah";
         if (blau==true || (lila==true)) { // hier muss nur eine bedingung erfüllt werden   || = oder
             System.out.println("Enttäuscht, halbtot und ohne auch nur einen Cent vom Schatz verlässt du die Mine und kehrst zurück nach Grimmdal\num wenigstens die Belohnung des Auftrages entgegen zu nehmen.(Ende)");
+            scanner.close();
             return;
         }
         else if (gelb == true) {
@@ -426,6 +442,7 @@ public class App {
             System.out.println("Drehst dich zum Gegner, um dich zu verteidigen.");
             System.out.println("Als du dich umdrehst und das Grässliche Monster erblickst was hier alles zerstört hat, und realisierst gleichzeitig das es der Größte Fehler deines Lebens war.\nDas Monster ist eine Gorgone, sie verwandelt alles Lebende zu Stein das ihr Gesicht erblickt.\nDas ist auch dein Schicksal, du spürst wie deine Gliedmaßen aufhören sich zu bewegen und kannst auch schließlich deinen Kopf nicht mehr bewegen.");
             System.out.println("Das letzte was du in deinem immer Dunklen werdenden Blickfeld wahrnimmst ist das Grinsen und das Gelächter der Gorgone,\nbis nur noch ein kurzer Moment der Dunkelheit und Kälte bleibt, und dich verschlingt. (Dead)");
+            scanner.close();
             return;
         }
         else if (letzterkampf==true &&(entscheidung9.equals("Gitter"))) {

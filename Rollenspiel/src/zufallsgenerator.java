@@ -24,13 +24,13 @@ public class zufallsgenerator {
 			break;
          
 		case 2:
-			System.out.println("Unter die bricht eine Planke weg und du fällst in den unvermeidbaren Tod.");
+			System.out.println("Unter dir bricht eine Planke weg und du fällst in den unvermeidbaren Tod.");
             int nummer = 0;
             System.exit(0); // dadurch wird das Rollenspiel App.java auch wirklich beendet
 			
 			
 		default:
-			System.out.println("Klappt nicht");
+			System.out.println("Fehler, Spiel bitte neu Starten");
 			break;      // default damit das switch benutzungsfähig ist, kann hier nicht vorkommen
 		
 	}
