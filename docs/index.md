@@ -34,7 +34,7 @@
   - [x] Objektmethoden  
 ## **Allgemeiner Teil**
 ###  *EVA-Prinzip* 
-- **(E)** ingabe
+- **(E)** ingabe 
 - **(V)** erarbeitung
 - **(A)** usgabe
    - Das **EVA-Prinzip** bezeichnet die Art, wie heutige Computer arbeiten. Im ersten Schritt wird eine **Eingabe** getätigt. Danach wird die getätigte Eingabe **verarbeitet** und zuletzt wird ein **Signal** **ausgegeben**. 
