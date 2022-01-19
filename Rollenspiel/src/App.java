@@ -26,7 +26,7 @@ public class App {
         
 
         System.out.println(
-                "Du befindest dich in einer Schenke in der Stadt Grimmdal, vor wenigen Augenblicken hast du eine Anfrage bekommen eine alte Ruine und Höhle zu erkunden.\nBevor du aber weiter Infos erhältst, musst du jedoch eine Extraklausel unterschreiben, die aussagt, dass der Auftraggeber im Falle von Verletzungen /nund oder dem Tod keine Verantwortung übernimmt.\nWillst du Unterschreiben? (Q) (Ja oder Nein) ");
+                "Du befindest dich in einer Schenke in der Stadt Grimmdal, vor wenigen Augenblicken hast du eine Anfrage bekommen eine alte Ruine und Höhle zu erkunden.\nBevor du aber weiter Infos erhältst, musst du jedoch eine Extraklausel unterschreiben, die aussagt, dass der Auftraggeber im Falle von Verletzungen/nund oder dem Tod keine Verantwortung übernimmt.\nWillst du Unterschreiben? (Q) (Ja oder Nein) ");
 
         String entscheidung1 = scanner.nextLine();
 

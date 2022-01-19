@@ -25,7 +25,7 @@ public class zufallsgenerator {
          
 		case 2:
 			System.out.println("Unter dir bricht eine Planke weg und du fällst in den unvermeidbaren Tod.");
-            int nummer = 0;
+            
             System.exit(0); // dadurch wird das Rollenspiel App.java auch wirklich beendet
 			
 			
